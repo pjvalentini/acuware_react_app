@@ -1,0 +1,12 @@
+/* Home Page */
+h1 {
+	color: blue;
+}
+
+.nav-links {
+	padding: 10px;
+}
+
+#sign-in-div {
+	width: 35%;
+}
