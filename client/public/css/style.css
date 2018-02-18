@@ -1,12 +1,44 @@
 /* Home Page */
-h1 {
-	color: blue;
-}
-
 .nav-links {
-	padding: 10px;
+	padding: 5px;
+	margin-top: -5px;
 }
 
 #sign-in-div {
 	width: 35%;
+}
+
+/* homepage */
+.homepage-sign-in-confirm {
+	color: #999a9a;
+	font-size: 15px;
+	margin-right: 12px;
+	margin-top: -4px;
+	display: inline-block;
+}
+
+/* navbar */
+.bg-faded {
+	background-color: #177100;
+}
+
+nav .brand-logo {
+	font-size: 55px;
+	padding-left: 22px;
+	margin-top: 4px;
+}
+
+.nav-links {
+	padding: 5px;
+	margin-right: 10px;
+	font-size: 15px;
+}
+
+/* SUBMIT Button */
+.btn-danger {
+	background-color: #177100;
+}
+
+.btn-danger:hover {
+	background-color: #91cd5b;
 }
