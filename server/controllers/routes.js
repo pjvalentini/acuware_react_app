@@ -2,7 +2,7 @@ var path = require('path');
 
 var LocalStrategy = require('passport-local').Strategy;
 var bcrypt = require('bcrypt-nodejs');
-
+var mc = require('./model-controller.js');
 var models = require('../models');
 
 module.exports = (app, passport) => {
@@ -65,6 +65,33 @@ module.exports = (app, passport) => {
 			res.status(204).send();
 		});
 	});
+
+// route to create a point for poulating DB in Postman
+	app.post('/api/create-point', (req, res) => {
+		mc.createPoint(
+			req.body.meridian,
+			req.body.english_name,
+			req.body.pinyin_name,
+			req.body.chinese_character,
+			req.body.location,
+			req.body.clinical_uses,
+			req.body.point_associations,
+			(pointsData) => {
+				res.json(pointsData);
+			}
+		);
+	});
+
+// route to get all points from the DB
+app.get('/points', (req, res) => {
+	mc.getAllPoints((points) => {
+		points.forEach((point) => {
+			point.clinical_uses = point.clinical_uses.split(".");
+			point.point_associations = point.point_associations.split(".");
+		});
+		res.json(points);
+	});
+});
 
 	app.get('*', function(req,res) {
 		res.sendFile(path.join(__dirname, './../../client/public/index.html'));
