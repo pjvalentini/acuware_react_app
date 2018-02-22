@@ -6,8 +6,7 @@ var mc = require('./model-controller.js');
 var models = require('../models');
 
 module.exports = (app, passport) => {
-
-	app.get('/', function(req,res){
+	app.get('/', function(req, res) {
 		res.sendFile(path.join(__dirname, './../../client/public/index.html'));
 	});
 
@@ -47,8 +46,8 @@ module.exports = (app, passport) => {
 						return next(err);
 				}
 		      	return res.status(200).json({ success : true, message : 'authentication succeeded', object : user });
-			});
-	  	})(req, res, next);
+		  });
+	  })(req, res, next);
 	});
 
 	app.get('/api/signed-in', (req, res) => {
@@ -83,15 +82,15 @@ module.exports = (app, passport) => {
 	});
 
 // route to get all points from the DB
-app.get('/points', (req, res) => {
-	mc.getAllPoints((points) => {
-		points.forEach((point) => {
-			point.clinical_uses = point.clinical_uses.split(".");
-			point.point_associations = point.point_associations.split(".");
+	app.get('/points', (req, res) => {
+		mc.getAllPoints((points) => {
+			points.forEach((point) => {
+				point.clinical_uses = point.clinical_uses.split(".");
+				point.point_associations = point.point_associations.split(".");
+			});
+			res.json(points);
 		});
-		res.json(points);
 	});
-});
 
 	app.get('*', function(req,res) {
 		res.sendFile(path.join(__dirname, './../../client/public/index.html'));
