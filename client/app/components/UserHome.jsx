@@ -72,7 +72,20 @@ class UserHome extends Component {
     });
 	}
   	render() {
-      console.log(this.state) // shows the user logged in
+      console.log(this.state) // shows the user logged in and points: results
+      const appendPoints = () => {
+        if (this.state.selected) {
+          const pointSelected = this.state.points.filter((point) => point.meridian === this.state.selected);
+          return pointSelected.map((selectedPoint, index) => {
+            return (
+              <div>
+                <p key={index}>Point: {selectedPoint.meridian}</p>
+
+              </div>
+            )
+          })
+        }
+      }
 	    return (
 	        <div>
 	       		<nav className="navbar navbar-light bg-faded">
@@ -109,8 +122,8 @@ class UserHome extends Component {
                 <option value="LV 14">LV 14</option>
   					  </select>
               <br></br>
-  				    <input className="btn btn-danger" type="submit"/>
             </div>
+            {appendPoints()}
           </div>
 	    );
   	}
