@@ -14,6 +14,7 @@ class UserHome extends Component {
         };
     }
 
+// Dropdown Code
     onSelectChange(e) {
       this.setState({
         selected: e.target.value
@@ -28,6 +29,7 @@ class UserHome extends Component {
       $(ReactDOM.findDOMNode(this.refs.pointSelect)).on('change', this.onSelectChange.bind(this));
     }
 
+// Delete for the logout
     logoutUser(){
         fetch('/api/logout', {
             method: 'DELETE',
@@ -58,6 +60,7 @@ class UserHome extends Component {
         }
     });
 
+// Getting my points data
     fetch('/points', {
       headers: {
          'content-type': 'application/json',
@@ -79,8 +82,35 @@ class UserHome extends Component {
           return pointSelected.map((selectedPoint, index) => {
             return (
               <div>
-                <p key={index}>Point: {selectedPoint.meridian}</p>
-
+                <p key={index}>LV Meridian Point: {selectedPoint.meridian}</p>
+                <p key={index}>English Name: {selectedPoint.english_name}</p>
+                <p key={index}>Pinyin Name: {selectedPoint.pinyin_name}</p>
+                <p key={index}>Chinese Character: {selectedPoint.chinese_character}</p>
+                <p key={index}>Location: {selectedPoint.location}</p>
+                <p>Clinical Usage:</p>
+                <ol>
+                {
+                  selectedPoint.clinical_uses.map((clinicalUsage, index) => {
+                      return(
+                        <div>
+                            <li key={clinicalUsage}>{clinicalUsage}</li>
+                        </div>
+                      )
+                  })
+                }
+                </ol>
+                <p>Point Associations:</p>
+                <ol>
+                {
+                  selectedPoint.point_associations.map((pointAssociation, index) => {
+                    return(
+                      <div>
+                          <li key={pointAssociation}>{pointAssociation}</li>
+                      </div>
+                    )
+                  })
+                }
+              </ol>
               </div>
             )
           })
@@ -92,7 +122,7 @@ class UserHome extends Component {
               <div className="nav-wrapper">
                 <h1 className="brand-logo">AcuWare<sup>&reg;</sup></h1>
                   <ul className="right hide-on-med-and-down">
-					          <li><Link className="nav-links" to="/">Home</Link></li>
+					          <li><Link className="nav-links" style={{textDecoration: 'none'}} to="/">Home</Link></li>
                     <li><Logout /></li>
                   </ul>
               </div>
@@ -103,7 +133,7 @@ class UserHome extends Component {
   		      </div>
             <br></br>
             <div style={{width: '25%'}}>
-              <label>LV Meridian</label><br></br>
+              <label className="dropdown-tag">LV Meridian</label><br></br>
   					  <select ref="pointSelect">
     					  <option defaultValue="" disabled selected>Choose Your Point</option>
     					  <option value="LV 1">LV 1</option>

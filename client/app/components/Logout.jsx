@@ -20,7 +20,7 @@ class Logout extends Component {
   	render() {
 	    return (
 			<ul className="right">
-				<a onClick={this.logoutUser.bind(this)}>Logout</a>
+				<a style={{textDecoration: 'none'}} onClick={this.logoutUser.bind(this)}>Logout</a>
 			</ul>
 	    );
   	}

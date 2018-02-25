@@ -12,7 +12,7 @@ export default class PageNotFound extends Component {
   	render() {
 	    return (
 	        <div>
-				    <h1>Page Not found, please go back <Link className="nav-links" to="/">home</Link></h1>
+				    <h1>Page Not found, please go back <Link style={{textDecoration: 'none'}} className="nav-links" to="/">Home</Link></h1>
 	        </div>
 	    );
   	}

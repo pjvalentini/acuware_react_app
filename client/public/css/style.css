@@ -14,8 +14,8 @@
 	font-size: 15px;
 	display: inline-block;
 	float: right;
-  margin-top: 17px;
-  margin-right: -100px;
+	margin-top: -5px;
+	margin-right: 14px;
 }
 
 /* navbar */
@@ -42,4 +42,9 @@ nav .brand-logo {
 
 .btn-danger:hover {
 	background-color: #91cd5b;
+}
+
+.dropdown-tag {
+	font-size: 1rem;
+  color: #5c5c5c;
 }

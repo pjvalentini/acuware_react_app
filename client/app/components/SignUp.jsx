@@ -50,8 +50,8 @@ class SignUp extends Component {
               <div className="nav-wrapper">
                 <h1 className="brand-logo">AcuWare<sup>&reg;</sup></h1>
                  <ul className="right hide-on-med-and-down">
-                   <li><Link className="nav-links" to="/">Home</Link></li>
-     					     <li><Link className="nav-links" to="/login">Login</Link></li>
+                   <li><Link style={{textDecoration: 'none'}} className="nav-links" to="/">Home</Link></li>
+     					     <li><Link style={{textDecoration: 'none'}} className="nav-links" to="/login">Login</Link></li>
                  </ul>
               </div>
 				    </nav>
