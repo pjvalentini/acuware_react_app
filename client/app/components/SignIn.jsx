@@ -39,7 +39,7 @@ class SignIn extends Component {
         }).then((response) => response.json())
         .then((results) => {
             if(results.message === "signed-in"){
-                this.props.history.push("/home")
+                this.props.history.push("/home") // + results.Points
             }
         });
 	}

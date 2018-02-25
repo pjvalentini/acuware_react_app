@@ -12,9 +12,10 @@
 .homepage-sign-in-confirm {
 	color: #999a9a;
 	font-size: 15px;
-	margin-right: 12px;
-	margin-top: -4px;
 	display: inline-block;
+	float: right;
+  margin-top: 17px;
+  margin-right: -100px;
 }
 
 /* navbar */
