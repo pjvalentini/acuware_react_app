@@ -9,7 +9,8 @@ class UserHome extends Component {
         super(props);
         this.state = {
         	user: {},
-          selected: undefined
+          selected: undefined,
+          points: []
         };
     }
 
@@ -38,24 +39,37 @@ class UserHome extends Component {
         });
     }
 	componentWillMount(){
-        fetch('/api/signed-in', {
-			       headers: {
-                'content-type': 'application/json',
-                'accept': 'application/json'
-            },
-            credentials: 'same-origin'
+    fetch('/api/signed-in', {
+	       headers: {
+            'content-type': 'application/json',
+            'accept': 'application/json'
+        },
+        credentials: 'same-origin'
 		}).then((response) => response.json())
-        .then((results) => {
-            if(results.message){
-                if(results.message !== "signed-in"){
-                    this.props.history.push("/login")
-                } else {
-                	this.setState({
-                		user: results.user
-                	})
-                }
+    .then((results) => {
+        if(results.message){
+            if(results.message !== "signed-in"){
+                this.props.history.push("/login")
+            } else {
+            	this.setState({
+            		user: results.user
+            	})
             }
-        });
+        }
+    });
+
+    fetch('/points', {
+      headers: {
+         'content-type': 'application/json',
+         'accept': 'application/json'
+     },
+     credentials: 'same-origin'
+    }).then((response) => response.json())
+    .then((results) => {
+    	this.setState({
+    		points: results
+    	})
+    });
 	}
   	render() {
       console.log(this.state) // shows the user logged in
