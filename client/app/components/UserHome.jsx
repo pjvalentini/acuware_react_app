@@ -133,6 +133,7 @@ class UserHome extends Component {
   		      </div>
             <br></br>
             <div className="diagram-div">
+              <h2 className="diagram-title">LV Meridian</h2><br></br>
               <img src="/images/lv-meridian.jpg"></img>
             </div>
             <div style={{width: '50%'}} className="dropdown-div">
