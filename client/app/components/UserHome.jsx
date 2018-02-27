@@ -81,7 +81,7 @@ class UserHome extends Component {
           const pointSelected = this.state.points.filter((point) => point.meridian === this.state.selected);
           return pointSelected.map((selectedPoint, index) => {
             return (
-              <div>
+              <div className="points-data-div">
                 <p key={index}>LV Meridian Point: {selectedPoint.meridian}</p>
                 <p key={index}>English Name: {selectedPoint.english_name}</p>
                 <p key={index}>Pinyin Name: {selectedPoint.pinyin_name}</p>
@@ -132,7 +132,10 @@ class UserHome extends Component {
                 {/* {this is where the points map will go with modal set up} */}
   		      </div>
             <br></br>
-            <div style={{width: '25%'}}>
+            <div className="diagram-div">
+              <img src="/images/lv-meridian.jpg"></img>
+            </div>
+            <div style={{width: '50%'}} className="dropdown-div">
               <label className="dropdown-tag">LV Meridian</label><br></br>
   					  <select ref="pointSelect">
     					  <option defaultValue="" disabled selected>Choose Your Point</option>

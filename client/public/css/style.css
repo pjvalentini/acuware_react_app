@@ -44,7 +44,21 @@ nav .brand-logo {
 	background-color: #91cd5b;
 }
 
+/* DROPDOWN */
+.dropdown-div {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
 .dropdown-tag {
 	font-size: 1rem;
   color: #5c5c5c;
+}
+
+/* UserHome page */
+.points-data-div {
+	float: right;
+	width: 50%;
+	padding-right: 10px;
+	padding-left: 10px;
 }
