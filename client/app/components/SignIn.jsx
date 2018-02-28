@@ -48,7 +48,7 @@ class SignIn extends Component {
 	        <div>
 	       		<nav className="navbar navbar-light bg-faded">
               <div className="nav-wrapper">
-                <h1 className="brand-logo">AcuWare<sup>&reg;</sup></h1>
+                <a className="brand-logo"><i class="material-icons">directions_walk</i>AcuWare<sup>&reg;</sup></a>
                   <ul className="right hide-on-med-and-down">
           				  <li><Link style={{textDecoration: 'none'}} className="nav-links" to="/">Home</Link></li>
           					<li><Link style={{textDecoration: 'none'}} className="nav-links" to="/sign-up">Sign Up</Link></li>

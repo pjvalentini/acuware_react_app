@@ -120,7 +120,7 @@ class UserHome extends Component {
 	        <div>
 	       		<nav className="navbar navbar-light bg-faded">
               <div className="nav-wrapper">
-                <h1 className="brand-logo">AcuWare<sup>&reg;</sup></h1>
+                <a className="brand-logo"><i class="material-icons">directions_walk</i>AcuWare<sup>&reg;</sup></a>
                   <ul className="right hide-on-med-and-down">
 					          <li><Link className="nav-links" style={{textDecoration: 'none'}} to="/">Home</Link></li>
                     <li><Logout /></li>
@@ -138,16 +138,16 @@ class UserHome extends Component {
                   <h2 className="diagram-title">LV Meridian</h2>
                 </div>
                 <div>
-                  <img className="lv-meridian-diagram" src="/images/lv-meridian.jpg"/>
+                  <img className="materialboxed" data-caption="LV Meridian Diagram" src="/images/lv-meridian.jpg"/>
                 </div>
               </div>
               {appendPoints()}
             </div>
             <br></br>
-            <div style={{width: '100%'}} className="dropdown-div">
-              <label className="dropdown-tag">LV Meridian</label><br></br>
+            <div style={{width: '100%'}} className="center">
+              <h3 className="dropdown-tag">LV Meridian</h3><br></br>
   					  <select ref="pointSelect">
-    					  <option defaultValue="" disabled selected>Choose Your Point</option>
+    					  <option defaultValue="" disabled selected>Choose Your Point From The Dropdown Menu</option>
     					  <option value="LV 1">LV 1</option>
     					  <option value="LV 2">LV 2</option>
     					  <option value="LV 3">LV 3</option>

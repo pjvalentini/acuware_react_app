@@ -15,23 +15,39 @@
 
 /* homepage */
 .homepage-sign-in-confirm {
-	color: #999a9a;
+	color: white;
 	font-size: 15px;
 	display: inline-block;
 	float: right;
 	margin-top: -5px;
 	margin-right: 14px;
+	border-radius: 5px;
+	background-color: #8e8e8e;
+	padding: 3px;
 }
 
 /* navbar */
 .bg-faded {
-	background-color: #177100;
+	background-color: #119acc;
 }
 
+nav i.material-icons {
+	font-size: 5vw;
+	margin-top: -3px;
+}
+
+
 nav .brand-logo {
-	font-size: 55px;
-	padding-left: 22px;
-	margin-top: 4px;
+	font-size: 5vw;
+	padding-left: 15px;
+	padding-top: 5px;
+	margin-top: -3px;
+	text-decoration: none;
+}
+
+nav .brand-logo i.material-icons {
+	float: left;
+	margin-right: 5px;
 }
 
 .nav-links {
@@ -50,7 +66,7 @@ nav .brand-logo {
 }
 
 /* DROPDOWN */
-.dropdown-div {
+.center {
 	padding-right: 10px;
 	padding-left: 10px;
 	border: 1px solid black;
@@ -59,8 +75,18 @@ nav .brand-logo {
 }
 
 .dropdown-tag {
-	font-size: 1rem;
+	font-size: 2vw;
   color: #5c5c5c;
+	margin: 0;
+	display: inline-block;
+}
+
+.select-wrapper {
+	text-align: center;
+}
+
+.dropdown-content {
+	background-color: #7df3ff;
 }
 
 /* UserHome page */
@@ -68,18 +94,23 @@ nav .brand-logo {
 	float: right;
 	width: 50%;
 	padding: 10px;
-	border: 1px solid black;
 	display: inline-block;
 	margin-top: 0;
+	margin-left: 2px;
+	border: 2px solid #119acc;
+	border-radius: 5px;
 }
 
-.diagram-wrapper{
+.diagram-wrapper {
 	width: -webkit-fill-available;
 }
 
 .diagram-div {
-	border: 1px solid black;
+	border: 2px solid #119acc;
+	border-radius: 5px;
 	display: inline-block;
+	padding: 5px;
+	margin-right: 2px;
 }
 
 .diagram-title {
@@ -93,7 +124,7 @@ nav .brand-logo {
 }
 
 
-.lv-meridian-diagram {
+.materialboxed {
 	width: 100%;
 	height: auto;
 }
