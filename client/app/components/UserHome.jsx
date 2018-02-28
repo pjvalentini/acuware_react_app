@@ -81,7 +81,7 @@ class UserHome extends Component {
           const pointSelected = this.state.points.filter((point) => point.meridian === this.state.selected);
           return pointSelected.map((selectedPoint, index) => {
             return (
-              <div className="points-data-div">
+              <div className="points-data-div" style={{width: '50%'}}>
                 <p key={index}>LV Meridian Point: {selectedPoint.meridian}</p>
                 <p key={index}>English Name: {selectedPoint.english_name}</p>
                 <p key={index}>Pinyin Name: {selectedPoint.pinyin_name}</p>
@@ -132,11 +132,19 @@ class UserHome extends Component {
                 {/* {this is where the points map will go with modal set up} */}
   		      </div>
             <br></br>
-            <div className="diagram-div">
-              <h2 className="diagram-title">LV Meridian</h2><br></br>
-              <img src="/images/lv-meridian.jpg"></img>
+            <div className="diagram-wrapper" style={{display: 'inline-flex'}}>
+              <div className="diagram-div" style={{width: '50%'}}>
+                <div>
+                  <h2 className="diagram-title">LV Meridian</h2>
+                </div>
+                <div>
+                  <img className="lv-meridian-diagram" src="/images/lv-meridian.jpg"/>
+                </div>
+              </div>
+              {appendPoints()}
             </div>
-            <div style={{width: '50%'}} className="dropdown-div">
+            <br></br>
+            <div style={{width: '100%'}} className="dropdown-div">
               <label className="dropdown-tag">LV Meridian</label><br></br>
   					  <select ref="pointSelect">
     					  <option defaultValue="" disabled selected>Choose Your Point</option>
@@ -157,7 +165,6 @@ class UserHome extends Component {
   					  </select>
               <br></br>
             </div>
-            {appendPoints()}
           </div>
 	    );
   	}

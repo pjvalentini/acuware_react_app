@@ -1,4 +1,9 @@
+/* Global */
+#app {
+}
+
 /* Home Page */
+
 .nav-links {
 	padding: 5px;
 	margin-top: -5px;
@@ -48,6 +53,9 @@ nav .brand-logo {
 .dropdown-div {
 	padding-right: 10px;
 	padding-left: 10px;
+	border: 1px solid black;
+	display: inline-block;
+	padding-top: 10px;
 }
 
 .dropdown-tag {
@@ -59,6 +67,33 @@ nav .brand-logo {
 .points-data-div {
 	float: right;
 	width: 50%;
-	padding-right: 10px;
+	padding: 10px;
+	border: 1px solid black;
+	display: inline-block;
+	margin-top: 0;
+}
+
+.diagram-wrapper{
+	width: -webkit-fill-available;
+}
+
+.diagram-div {
+	border: 1px solid black;
+	display: inline-block;
+}
+
+.diagram-title {
+	display: inline-block;
+	color: slategray;
+	font-size: 3vw;
 	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+.lv-meridian-diagram {
+	width: 100%;
+	height: auto;
 }
