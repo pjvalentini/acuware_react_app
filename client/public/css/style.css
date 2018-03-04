@@ -69,9 +69,10 @@ nav .brand-logo i.material-icons {
 .center {
 	padding-right: 10px;
 	padding-left: 10px;
-	border: 1px solid black;
 	display: inline-block;
 	padding-top: 10px;
+	border-radius: 5px;
+	background-color: #6bbd52;
 }
 
 .dropdown-tag {
@@ -79,6 +80,11 @@ nav .brand-logo i.material-icons {
   color: #5c5c5c;
 	margin: 0;
 	display: inline-block;
+	border: solid 2px #5c5c5c;
+	border-radius: 5px;
+	background-color: white;
+	padding-left: 3px;
+	padding-right: 3px;
 }
 
 .select-wrapper {
@@ -86,7 +92,7 @@ nav .brand-logo i.material-icons {
 }
 
 .dropdown-content {
-	background-color: #7df3ff;
+	background-color: #bababa;
 }
 
 /* UserHome page - Points Data Div */
@@ -96,6 +102,7 @@ nav .brand-logo i.material-icons {
 	padding: 10px;
 	display: inline-block;
 	margin-top: 0;
+	margin-bottom: 5px;
 	margin-left: 2px;
 	border-radius: 5px;
 	background-color: #e0e0dd;
@@ -105,6 +112,7 @@ nav .brand-logo i.material-icons {
 	border-radius: 5px;
 	padding: 5px;
 	background-color: #aee39e;
+	padding-left: 11px;
 }
 
 .channel-title {
@@ -116,18 +124,25 @@ nav .brand-logo i.material-icons {
 	color: slategray;
 }
 
+.tri-div-wrapper {
+}
+
 .points-data-div-english-name {
 	border-radius: 5px;
 	padding: 5px;
 	background-color: #aee39e;
+	display: inline-block;
+	margin-right: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .english-name-title {
-	font-size: 25px;
+	font-size: 40px;
 }
 
 .english-name {
-	font-size: 25px;
+	font-size: 40px;
 	color: slategray;
 }
 
@@ -135,14 +150,18 @@ nav .brand-logo i.material-icons {
 	border-radius: 5px;
 	padding: 5px;
 	background-color: #aee39e;
+	display: inline-block;
+	margin-right: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .pinyin-name-title {
-	font-size: 25px;
+	font-size: 40px;
 }
 
 .pinyin-name {
-	font-size: 25px;
+	font-size: 40px;
 	color: slategray;
 }
 
@@ -150,14 +169,17 @@ nav .brand-logo i.material-icons {
 	border-radius: 5px;
 	padding: 5px;
 	background-color: #aee39e;
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .chinese_character-title {
-	font-size: 25px;
+	font-size: 40px;
 }
 
 .chinese_character {
-	font-size: 25px;
+	font-size: 40px;
 	color: slategray;
 }
 
@@ -165,6 +187,7 @@ nav .brand-logo i.material-icons {
 	border-radius: 5px;
 	padding: 5px;
 	background-color: #aee39e;
+	padding-left: 11px;
 }
 
 .location-title {
@@ -180,6 +203,7 @@ nav .brand-logo i.material-icons {
 	border-radius: 5px;
 	padding: 5px;
 	background-color: #aee39e;
+	padding-left: 11px;
 }
 
 .clinical-usage-title {
@@ -196,6 +220,7 @@ nav .brand-logo i.material-icons {
 	padding: 5px;
 	background-color: #aee39e;
 	margin-top: 10px;
+	padding-left: 11px;
 }
 
 .point-associations-title {
@@ -215,11 +240,12 @@ nav .brand-logo i.material-icons {
 }
 
 .diagram-div {
-	border: 2px solid #119acc;
+	border: 2px solid #aee39e;
 	border-radius: 5px;
 	display: inline-block;
 	padding: 5px;
 	margin-right: 2px;
+	margin-bottom: 5px;
 }
 
 .diagram-title {

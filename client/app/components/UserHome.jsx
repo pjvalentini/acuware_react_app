@@ -85,14 +85,16 @@ class UserHome extends Component {
                 <div>
                   <p key={index} className="points-data-div-title"><span className="channel-title">LV Meridian Point:</span><span className="channel-number"> {selectedPoint.meridian}</span></p>
                 </div>
-                <div style={{width: '25%'}}>
-                  <p key={index} className="points-data-div-english-name"><span className="english-name-title">English Name:</span><span className="english-name"> {selectedPoint.english_name}</span></p>
-                </div>
-                <div style={{width: '25%'}}>
-                  <p key={index} className="points-data-div-pinyin-name"><span className="pinyin-name-title">Pinyin Name:</span><span className="pinyin-name"> {selectedPoint.pinyin_name}</span></p>
-                </div>
-                <div style={{width: '25%'}}>
-                  <p key={index} className="points-data-div-chinese_character"><span className="chinese_character-title">Chinese Character:</span><span className="chinese_character"> {selectedPoint.chinese_character}</span></p>
+                <div className= "tri-div-wrapper" style={{display: 'inline-flex'}}>
+                  <div>
+                    <p key={index} className="points-data-div-english-name"><span className="english-name-title">English Name:</span><br></br><span className="english-name"> {selectedPoint.english_name}</span></p>
+                  </div>
+                  <div>
+                    <p key={index} className="points-data-div-pinyin-name"><span className="pinyin-name-title">Pinyin Name:</span><br></br><span className="pinyin-name"> {selectedPoint.pinyin_name}</span></p>
+                  </div>
+                  <div>
+                    <p key={index} className="points-data-div-chinese_character"><span className="chinese_character-title">Chinese Character:</span><br></br><span className="chinese_character"> {selectedPoint.chinese_character}</span></p>
+                  </div>
                 </div>
                 <div>
                   <p key={index} className="points-data-div-location"><span className="location-title">Location:</span><span className="location"> {selectedPoint.location}</span></p>
@@ -159,9 +161,9 @@ class UserHome extends Component {
             </div>
             <br></br>
             <div style={{width: '100%'}} className="center">
-              <h3 className="dropdown-tag">LV Meridian</h3><br></br>
+              <h3 className="dropdown-tag">LV Meridian - Points Selector</h3><br></br>
   					  <select ref="pointSelect">
-    					  <option defaultValue="" disabled selected>Choose Your Point From The Dropdown Menu</option>
+    					  <option defaultValue="" disabled selected className="choose-default">Choose Your Point From The Dropdown Menu</option>
     					  <option value="LV 1">LV 1</option>
     					  <option value="LV 2">LV 2</option>
     					  <option value="LV 3">LV 3</option>
