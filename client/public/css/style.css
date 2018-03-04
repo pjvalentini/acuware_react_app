@@ -58,10 +58,15 @@ nav .brand-logo i.material-icons {
 
 .liver-channel-info {
 	border-radius: 5px;
-	padding: 10px;
-	background-color: #e0e0dd;
 	margin-bottom: 5px;
 	height: 50%;
+	background-color: #e0e0dd;
+}
+
+.liver-div {
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 5px;
 }
 
 .liver-page-title {
@@ -157,8 +162,6 @@ nav .brand-logo i.material-icons {
 	color: slategray;
 }
 
-.tri-div-wrapper {
-}
 
 .points-data-div-english-name {
 	border-radius: 5px;
@@ -279,6 +282,7 @@ nav .brand-logo i.material-icons {
 	padding: 5px;
 	margin-right: 2px;
 	margin-bottom: 5px;
+	height: 75%;
 }
 
 .diagram-title {
