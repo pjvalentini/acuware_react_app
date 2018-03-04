@@ -97,30 +97,34 @@ class UserHome extends Component {
                 <div>
                   <p key={index} className="points-data-div-location"><span className="location-title">Location:</span><span className="location"> {selectedPoint.location}</span></p>
                 </div>
-                <p>Clinical Usage:</p>
-                <ol>
-                {
-                  selectedPoint.clinical_uses.map((clinicalUsage, index) => {
+                <div className="points-data-div-clinical-usage">
+                  <p key={index}><span className="clinical-usage-title">Clinical Usage:</span></p>
+                  <ol>
+                  {
+                    selectedPoint.clinical_uses.map((clinicalUsage, index) => {
+                        return(
+                          <div>
+                              <span className="clinical-usage"><li key={clinicalUsage}>{clinicalUsage}</li></span>
+                          </div>
+                        )
+                    })
+                  }
+                  </ol>
+                </div>
+                <div className="points-data-div-point-associations">
+                  <p key={index}><span className="point-associations-title">Point Associations:</span></p>
+                  <ol>
+                  {
+                    selectedPoint.point_associations.map((pointAssociation, index) => {
                       return(
                         <div>
-                            <li key={clinicalUsage}>{clinicalUsage}</li>
+                            <span className="point-associations"><li key={pointAssociation}>{pointAssociation}</li></span>
                         </div>
                       )
-                  })
-                }
+                    })
+                  }
                 </ol>
-                <p>Point Associations:</p>
-                <ol>
-                {
-                  selectedPoint.point_associations.map((pointAssociation, index) => {
-                    return(
-                      <div>
-                          <li key={pointAssociation}>{pointAssociation}</li>
-                      </div>
-                    )
-                  })
-                }
-              </ol>
+                </div>
               </div>
             )
           })

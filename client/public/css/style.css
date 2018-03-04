@@ -89,7 +89,8 @@ nav .brand-logo i.material-icons {
 	background-color: #7df3ff;
 }
 
-/* UserHome page */
+/* UserHome page - Points Data Div */
+
 .points-data-div {
 	float: right;
 	padding: 10px;
@@ -174,6 +175,39 @@ nav .brand-logo i.material-icons {
 	font-size: 20px;
 	color: slategray;
 }
+
+.points-data-div-clinical-usage {
+	border-radius: 5px;
+	padding: 5px;
+	background-color: #aee39e;
+}
+
+.clinical-usage-title {
+	font-size: 30px;
+}
+
+.clinical-usage {
+	font-size: 18px;
+	color: slategray;
+}
+
+.points-data-div-point-associations {
+	border-radius: 5px;
+	padding: 5px;
+	background-color: #aee39e;
+	margin-top: 10px;
+}
+
+.point-associations-title {
+	font-size: 30px;
+}
+
+.point-associations {
+	font-size: 18px;
+	color: slategray;
+}
+
+
 /* Diagram */
 
 .diagram-wrapper {
