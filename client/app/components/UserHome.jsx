@@ -81,12 +81,22 @@ class UserHome extends Component {
           const pointSelected = this.state.points.filter((point) => point.meridian === this.state.selected);
           return pointSelected.map((selectedPoint, index) => {
             return (
-              <div className="points-data-div" style={{width: '50%'}}>
-                <p key={index}>LV Meridian Point: {selectedPoint.meridian}</p>
-                <p key={index}>English Name: {selectedPoint.english_name}</p>
-                <p key={index}>Pinyin Name: {selectedPoint.pinyin_name}</p>
-                <p key={index}>Chinese Character: {selectedPoint.chinese_character}</p>
-                <p key={index}>Location: {selectedPoint.location}</p>
+              <div className="points-data-div" style={{width: '75%'}}>
+                <div>
+                  <p key={index} className="points-data-div-title"><span className="channel-title">LV Meridian Point:</span><span className="channel-number"> {selectedPoint.meridian}</span></p>
+                </div>
+                <div style={{width: '25%'}}>
+                  <p key={index} className="points-data-div-english-name"><span className="english-name-title">English Name:</span><span className="english-name"> {selectedPoint.english_name}</span></p>
+                </div>
+                <div style={{width: '25%'}}>
+                  <p key={index} className="points-data-div-pinyin-name"><span className="pinyin-name-title">Pinyin Name:</span><span className="pinyin-name"> {selectedPoint.pinyin_name}</span></p>
+                </div>
+                <div style={{width: '25%'}}>
+                  <p key={index} className="points-data-div-chinese_character"><span className="chinese_character-title">Chinese Character:</span><span className="chinese_character"> {selectedPoint.chinese_character}</span></p>
+                </div>
+                <div>
+                  <p key={index} className="points-data-div-location"><span className="location-title">Location:</span><span className="location"> {selectedPoint.location}</span></p>
+                </div>
                 <p>Clinical Usage:</p>
                 <ol>
                 {
@@ -133,12 +143,12 @@ class UserHome extends Component {
   		      </div>
             <br></br>
             <div className="diagram-wrapper" style={{display: 'inline-flex'}}>
-              <div className="diagram-div" style={{width: '50%'}}>
+              <div className="diagram-div" style={{width: '25%'}}>
                 <div>
                   <h2 className="diagram-title">LV Meridian</h2>
                 </div>
                 <div>
-                  <img className="materialboxed" data-caption="LV Meridian Diagram" src="/images/lv-meridian.jpg"/>
+                  <img className="materialboxed" data-caption="LV Meridian Diagram" src="/images/lv-channel-new.jpg"/>
                 </div>
               </div>
               {appendPoints()}

@@ -28,7 +28,7 @@
 
 /* navbar */
 .bg-faded {
-	background-color: #119acc;
+	background-color: #aee39e;
 }
 
 nav i.material-icons {
@@ -92,14 +92,89 @@ nav .brand-logo i.material-icons {
 /* UserHome page */
 .points-data-div {
 	float: right;
-	width: 50%;
 	padding: 10px;
 	display: inline-block;
 	margin-top: 0;
 	margin-left: 2px;
-	border: 2px solid #119acc;
 	border-radius: 5px;
+	background-color: #e0e0dd;
 }
+
+.points-data-div-title {
+	border-radius: 5px;
+	padding: 5px;
+	background-color: #aee39e;
+}
+
+.channel-title {
+	font-size: 30px;
+}
+
+.channel-number {
+	font-size: 30px;
+	color: slategray;
+}
+
+.points-data-div-english-name {
+	border-radius: 5px;
+	padding: 5px;
+	background-color: #aee39e;
+}
+
+.english-name-title {
+	font-size: 25px;
+}
+
+.english-name {
+	font-size: 25px;
+	color: slategray;
+}
+
+.points-data-div-pinyin-name {
+	border-radius: 5px;
+	padding: 5px;
+	background-color: #aee39e;
+}
+
+.pinyin-name-title {
+	font-size: 25px;
+}
+
+.pinyin-name {
+	font-size: 25px;
+	color: slategray;
+}
+
+.points-data-div-chinese_character {
+	border-radius: 5px;
+	padding: 5px;
+	background-color: #aee39e;
+}
+
+.chinese_character-title {
+	font-size: 25px;
+}
+
+.chinese_character {
+	font-size: 25px;
+	color: slategray;
+}
+
+.points-data-div-location {
+	border-radius: 5px;
+	padding: 5px;
+	background-color: #aee39e;
+}
+
+.location-title {
+	font-size: 30px;
+}
+
+.location {
+	font-size: 20px;
+	color: slategray;
+}
+/* Diagram */
 
 .diagram-wrapper {
 	width: -webkit-fill-available;
