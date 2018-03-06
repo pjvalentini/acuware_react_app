@@ -48,7 +48,7 @@ class SignUp extends Component {
 	        <div>
 	       		<nav className="navbar navbar-light bg-faded">
               <div className="nav-wrapper">
-                <a className="brand-logo"><i class="material-icons">directions_walk</i>AcuWare<sup>&reg;</sup></a>
+                <a className="brand-logo"><i className="material-icons">directions_walk</i>AcuWare<sup>&reg;</sup></a>
                  <ul className="right hide-on-med-and-down">
                    <li><Link style={{textDecoration: 'none'}} className="nav-links" to="/">Home</Link></li>
      					     <li><Link style={{textDecoration: 'none'}} className="nav-links" to="/login">Login</Link></li>
@@ -66,7 +66,7 @@ class SignUp extends Component {
 							<input type="text" ref="username" /><br></br>
 							<label>Password</label><br></br>
 							<input type="password" ref="password" /><br></br>
-							<input className="btn btn-danger"  type="submit" />
+							<input className="btn btn-danger" type="submit" />
 						</form>
 					</div>
 				</div>

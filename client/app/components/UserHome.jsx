@@ -137,7 +137,7 @@ class UserHome extends Component {
 	        <div>
 	       		<nav className="navbar navbar-light bg-faded">
               <div className="nav-wrapper">
-                <a className="brand-logo"><i class="material-icons">directions_walk</i>AcuWare<sup>&reg;</sup></a>
+                <a className="brand-logo"><i className="material-icons">directions_walk</i>AcuWare<sup>&reg;</sup></a>
                   <ul className="right hide-on-med-and-down">
 					          <li><Link className="nav-links" style={{textDecoration: 'none'}} to="/">Home</Link></li>
                     <li><Logout /></li>
