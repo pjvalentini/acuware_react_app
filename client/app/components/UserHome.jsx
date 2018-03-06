@@ -139,16 +139,12 @@ class UserHome extends Component {
               <div className="nav-wrapper">
                 <a className="brand-logo"><i className="material-icons">directions_walk</i>AcuWare<sup>&reg;</sup></a>
                   <ul className="right hide-on-med-and-down">
+                    <li><h4 className="homepage-sign-in-confirm">Welcome {this.state.user.name}!</h4></li>
 					          <li><Link className="nav-links" style={{textDecoration: 'none'}} to="/">Home</Link></li>
                     <li><Logout /></li>
                   </ul>
               </div>
 				    </nav>
-  				  <div>
-  		        	<h4 className="homepage-sign-in-confirm">Welcome {this.state.user.name}!</h4>
-                {/* {this is where the points map will go with modal set up} */}
-  		      </div>
-            <br></br>
             <div className="diagram-wrapper" style={{display: 'inline-flex'}}>
               <div className="diagram-div" style={{width: '25%'}}>
                 <div>

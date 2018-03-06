@@ -7,6 +7,7 @@ class Home extends Component {
     constructor(props) {
         super(props);
         this.state = {
+          user: {},
         	signedIn: false
         };
     }
@@ -36,6 +37,7 @@ class Home extends Component {
         });
 	}
   	render() {
+      console.log(this.state)
   		const renderLinks = () => {
   			if(this.state.signedIn){
   				return (
@@ -43,6 +45,7 @@ class Home extends Component {
               <div className="nav-wrapper">
                 <a className="brand-logo"><i className="material-icons">directions_walk</i>AcuWare<sup>&reg;</sup></a>
                   <ul className="right hide-on-med-and-down">
+                    <li><h4 className="homepage-sign-in-confirm">Welcome {this.state.user.name}!</h4></li>
       						  <li><Link style={{textDecoration: 'none'}} className="nav-links" to="/home">Profile</Link></li>
                     <li><Logout /></li>
                   </ul>
@@ -66,34 +69,34 @@ class Home extends Component {
 	    return (
 	        <div>
 	        	{renderLinks()}
-            <div className="slider">
-              <ul className="slides">
+            <div className="slider" style={{height: "840px", touchAction: "pan-y", WebkitUserDrag: "none", WebkitTapHighlightColor: "rgba(0, 0, 0, 0)"}}>
+              <ul className="slides" style={{height: "800px", touchAction: "pan-y", WebkitUserDrag: "none", WebkitTapHighlightColor: "rgba(0, 0, 0, 0)"}}>
                 <li>
-                  <img src="/images/lotus.png" style={{height: '400px'}}/>
+                  <img src="/images/lotus.png" />
                   <div className="caption center-align">
-                    <h3>Welcome to AcuWare!</h3>
-                    <h5 className="light grey-text text-lighten-3">Your Acupuncture Study Resource.</h5>
+                    <h3 className="main-tag-h3-slideOne">Welcome to AcuWare!</h3>
+                    <h5 className="light grey-text text-lighten-3 second-tag-slideOne">Your Acupuncture Study Resource.</h5>
                   </div>
                 </li>
                 <li>
                   <img src="/images/needles-dummy.jpg"/>
                   <div className="caption left-align">
-                    <h3>Sign Up Today!</h3>
-                    <h5 className="light grey-text text-lighten-3">Start Your Learning Experience.</h5>
+                    <h3 className="main-tag-h3-slideTwo">Sign Up Today!</h3>
+                    <h5 className="light grey-text text-lighten-3 second-tag-slideTwo">Start Your Learning Experience.</h5>
                   </div>
                 </li>
                 <li>
                   <img src="/images/needles.png"/>
                   <div className="caption right-align">
-                    <h3>Create Index Cards More Effenciently.</h3>
-                    <h5 className="light grey-text text-lighten-3">Our data is just what you need.</h5>
+                    <h3 className="main-tag-h3-slideThree">Create Index Cards More Effenciently.</h3>
+                    <h5 className="light grey-text text-lighten-3 second-tag-slideThree">Our data is just what you need.</h5>
                   </div>
                 </li>
                 <li>
                   <img src="/images/anciettcmtext.jpg"/>
                   <div className="caption center-align">
-                    <h3>Always Free!</h3>
-                    <h5 className="light grey-text text-lighten-3">All you have to is sign up ans start learning.</h5>
+                    <h3 className="main-tag-h3-slideFour">Always Free!</h3>
+                    <h5 className="light grey-text text-lighten-3 second-tag-slideFour" >All you have to is sign up ans start learning.</h5>
                   </div>
                 </li>
               </ul>
