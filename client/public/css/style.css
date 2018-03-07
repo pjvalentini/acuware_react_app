@@ -1,5 +1,6 @@
 /* Global */
-#app {
+body {
+	margin-bottom: 0;
 }
 
 /* Home Page */
@@ -21,7 +22,7 @@
 	display: inline-block;
 	float: right;
 	margin-top: -5px;
-	margin-right: 14px;
+	margin-right: 25px;
 	margin-top: 21px;
 	border-radius: 5px;
 	background-color: #8e8e8e;
@@ -57,7 +58,55 @@ nav .brand-logo i.material-icons {
 .nav-links {
 	padding: 5px;
 	margin-right: 10px;
-	font-size: 15px;
+	font-size: 20px;
+}
+
+.logout {
+	font-size: 20px;
+}
+
+/* Form Styling */
+
+.text-center {
+	margin-left: 464px;
+}
+
+.signUp-tag {
+	margin-top: -1px;
+	border: solid 1px #a1a1a1;
+	border-radius: 5px;
+	background-color: #a1a1a1;
+	padding: 3px;
+	color: white;
+	font-size: 40px;
+}
+
+.signIn-tag {
+	margin-top: -1px;
+	border: solid 1px #a1a1a1;
+	border-radius: 5px;
+	background-color: #a1a1a1;
+	padding: 3px;
+	color: white;
+	font-size: 40px;
+}
+
+.center-block {
+	background-color: #aee39e;
+	position: absolute;
+	top: 200px;
+	z-index: 10;
+}
+
+label {
+	color: slategray;
+	font-size: 12px;
+	font-weight: 300;
+	letter-spacing: 2px;
+}
+
+label .active {
+	color: slategray;
 }
 
 /* Slide Show */
@@ -71,22 +120,53 @@ nav .brand-logo i.material-icons {
 }
 
 .main-tag-h3-slideOne {
+	background-color: #aee39e;
+	display: inline-block;
+	padding: 4px;
+	border-radius: 5px;
 	font-size: 50px;
+}
+
+.second-tag-slideOne {
+	color: lightgrey;
 }
 
 
 .main-tag-h3-slideTwo {
+	background-color: #aee39e;
+	display: inline-block;
+	padding: 4px;
+	border-radius: 5px;
 	font-size: 50px;
+}
+
+.second-tag-slideTwo {
+	color: lightgrey;
+	margin-left: 4px;
 }
 
 .main-tag-h3-slideThree {
+	background-color: #aee39e;
+	display: inline-block;
+	padding: 4px;
+	border-radius: 5px;
 	font-size: 50px;
-	color: #616161;
+}
+
+.second-tag-slideThree {
+	color: #3d3d3d;
 }
 
 .main-tag-h3-slideFour {
+	background-color: #aee39e;
+	display: inline-block;
+	padding: 4px;
+	border-radius: 5px;
 	font-size: 50px;
-	color: #616161;
+}
+
+.second-tag-slideFour {
+	color: #3d3d3d;
 }
 
 /* Liver Channel Div*/
@@ -106,7 +186,7 @@ nav .brand-logo i.material-icons {
 
 .liver-page-title {
 	font-size: 30px;
-	color: black;
+	color: #606060;
 	background-color: #aee39e;
 	border: solid 2px white;
 	border-radius: 5px;
@@ -122,11 +202,11 @@ nav .brand-logo i.material-icons {
 
 /* SUBMIT Button */
 .btn-danger {
-	background-color: #177100;
+	background-color: #a1a1a1;
 }
 
 .btn-danger:hover {
-	background-color: #91cd5b;
+	background-color: #177100;
 }
 
 /* DROPDOWN */
@@ -324,13 +404,12 @@ nav .brand-logo i.material-icons {
 .diagram-title {
 	display: inline-block;
 	color: slategray;
-	font-size: 3vw;
+	font-size: 1vw;
 	padding-left: 10px;
 	padding-right: 10px;
 	margin-top: 0;
   margin-bottom: 0;
 }
-
 
 .materialboxed {
 	width: 100%;

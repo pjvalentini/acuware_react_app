@@ -12,9 +12,12 @@ class Home extends Component {
         };
     }
 
+// breaking the custom height of the slideshow div and indicators.
   componentDidMount() {
 	$(document).ready(function(){
       $('.slider').slider();
+      $('.slides').css('height', '650px');
+      $('.slider').css('height', '690px')
     });
 }
 
@@ -30,6 +33,7 @@ class Home extends Component {
             if(results.message){
                 if(results.message === "signed-in"){
                     this.setState({
+                      user: results.user,
                     	signedIn: true
                     })
                 }
@@ -75,28 +79,28 @@ class Home extends Component {
                   <img src="/images/lotus.png" />
                   <div className="caption center-align">
                     <h3 className="main-tag-h3-slideOne">Welcome to AcuWare!</h3>
-                    <h5 className="light grey-text text-lighten-3 second-tag-slideOne">Your Acupuncture Study Resource.</h5>
+                    <h5 className="second-tag-slideOne">Your Acupuncture Study Resource.</h5>
                   </div>
                 </li>
                 <li>
                   <img src="/images/needles-dummy.jpg"/>
                   <div className="caption left-align">
                     <h3 className="main-tag-h3-slideTwo">Sign Up Today!</h3>
-                    <h5 className="light grey-text text-lighten-3 second-tag-slideTwo">Start Your Learning Experience.</h5>
+                    <h5 className="second-tag-slideTwo">Start Your Learning Experience.</h5>
                   </div>
                 </li>
                 <li>
                   <img src="/images/needles.png"/>
                   <div className="caption right-align">
                     <h3 className="main-tag-h3-slideThree">Create Index Cards More Effenciently.</h3>
-                    <h5 className="light grey-text text-lighten-3 second-tag-slideThree">Our data is just what you need.</h5>
+                    <h5 className="second-tag-slideThree">Our data is just what you need.</h5>
                   </div>
                 </li>
                 <li>
                   <img src="/images/anciettcmtext.jpg"/>
                   <div className="caption center-align">
                     <h3 className="main-tag-h3-slideFour">Always Free!</h3>
-                    <h5 className="light grey-text text-lighten-3 second-tag-slideFour" >All you have to is sign up ans start learning.</h5>
+                    <h5 className="second-tag-slideFour" >All you have to is sign up and start learning.</h5>
                   </div>
                 </li>
               </ul>

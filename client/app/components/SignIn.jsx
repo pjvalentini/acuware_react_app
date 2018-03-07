@@ -7,6 +7,16 @@ class SignIn extends Component {
         this.state = {
         };
     }
+
+// creating a custom height for the slide show.
+    componentDidMount() {
+    $(document).ready(function(){
+        $('.slider').slider();
+        $('.slides').css('height', '650px');
+        $('.slider').css('height', '690px')
+      });
+  }
+
     signInForm(e){
         e.preventDefault()
     	var signInUser = {
@@ -55,11 +65,26 @@ class SignIn extends Component {
                   </ul>
               </div>
 				    </nav>
+            <div className="slider">
+              <ul className="slides">
+                <li>
+                  <img src="/images/lotus.png" />
+                </li>
+                <li>
+                  <img src="/images/needles-dummy.jpg"/>
+                </li>
+                <li>
+                  <img src="/images/needles.png"/>
+                </li>
+                <li>
+                  <img src="/images/anciettcmtext.jpg"/>
+                </li>
+              </ul>
+            </div>
 				<div className="text-center">
-		        	<h1>Welcome to AcuWare!</h1>
-		        	<h2>Please Sign in</h2>
 					<div className="well center-block" id="sign-in-div">
 						<form id="sign-in-form" onSubmit={this.signInForm.bind(this)}>
+              <h2 className="signIn-tag">Please sign in!</h2>
 							<label>Username</label><br></br>
 							<input type="text" ref="username" /><br></br>
 							<label>Password</label><br></br>

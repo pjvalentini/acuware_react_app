@@ -148,7 +148,7 @@ class UserHome extends Component {
             <div className="diagram-wrapper" style={{display: 'inline-flex'}}>
               <div className="diagram-div" style={{width: '25%'}}>
                 <div>
-                  <h2 className="diagram-title">LV Meridian</h2>
+                  <h2 className="diagram-title">LV Meridian Points</h2>
                 </div>
                 <div>
                   <img className="materialboxed" data-caption="LV Meridian Diagram" src="/images/lv-channel-new.jpg"/>

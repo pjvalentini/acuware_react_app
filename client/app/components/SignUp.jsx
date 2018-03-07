@@ -7,6 +7,16 @@ class SignUp extends Component {
         this.state = {
         };
     }
+
+// creating a custom height for the slide show.
+    componentDidMount() {
+    $(document).ready(function(){
+        $('.slider').slider();
+        $('.slides').css('height', '650px');
+        $('.slider').css('height', '690px')
+      });
+  }
+
     signUpForm(e){
     	e.preventDefault();
     	var newUser = {
@@ -55,10 +65,25 @@ class SignUp extends Component {
                  </ul>
               </div>
 				    </nav>
+            <div className="slider">
+              <ul className="slides">
+                <li>
+                  <img src="/images/lotus.png" />
+                </li>
+                <li>
+                  <img src="/images/needles-dummy.jpg"/>
+                </li>
+                <li>
+                  <img src="/images/needles.png"/>
+                </li>
+                <li>
+                  <img src="/images/anciettcmtext.jpg"/>
+                </li>
+              </ul>
+            </div>
 				  <div className="text-center">
-		        	<h1>Welcome to AcuWare</h1>
-		        	<h2>Not a member? Please Sign Up</h2>
 					<div className="well center-block" id="sign-in-div">
+            <h2 className="signUp-tag">Please sign up today!</h2>
 						<form id="sign-in-form" onSubmit={this.signUpForm.bind(this)}>
 							<label>Name</label><br></br>
 							<input type="text" ref="name" /><br></br>
