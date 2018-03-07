@@ -34,11 +34,12 @@ body {
 	padding-top: 8px;
 	height: 75px;
 	background-color: #aee39e;
+	margin-bottom: 17px;
 }
 
 nav i.material-icons {
 	font-size: 5vw;
-	margin-top: -3px;
+	margin-top: -6px;
 }
 
 
@@ -199,7 +200,6 @@ label .active {
 }
 
 
-
 /* SUBMIT Button */
 .btn-danger {
 	background-color: #a1a1a1;
@@ -216,7 +216,7 @@ label .active {
 	display: inline-block;
 	padding-top: 10px;
 	border-radius: 5px;
-	background-color: #6bbd52;
+	background-color: #aee39e;
 	float: right;
 }
 
@@ -233,7 +233,7 @@ label .active {
 }
 
 .select-dropdown {
-	color: white;
+	color: slategray;
 }
 
 .active {
@@ -276,7 +276,6 @@ label .active {
 	font-size: 30px;
 	color: slategray;
 }
-
 
 .points-data-div-english-name {
 	border-radius: 5px;
@@ -388,6 +387,7 @@ label .active {
 
 .diagram-wrapper {
 	width: -webkit-fill-available;
+	margin-top: ;
 }
 
 .diagram-div {

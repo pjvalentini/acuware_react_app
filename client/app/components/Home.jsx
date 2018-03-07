@@ -92,7 +92,7 @@ class Home extends Component {
                 <li>
                   <img src="/images/needles.png"/>
                   <div className="caption right-align">
-                    <h3 className="main-tag-h3-slideThree">Create Index Cards More Effenciently.</h3>
+                    <h3 className="main-tag-h3-slideThree">Create Index Cards More Efficiently.</h3>
                     <h5 className="second-tag-slideThree">Our data is just what you need.</h5>
                   </div>
                 </li>
