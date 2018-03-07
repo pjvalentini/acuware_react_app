@@ -76,7 +76,7 @@ class Home extends Component {
             <div className="slider" style={{height: "840px", touchAction: "pan-y", WebkitUserDrag: "none", WebkitTapHighlightColor: "rgba(0, 0, 0, 0)"}}>
               <ul className="slides" style={{height: "800px", touchAction: "pan-y", WebkitUserDrag: "none", WebkitTapHighlightColor: "rgba(0, 0, 0, 0)"}}>
                 <li>
-                  <img src="/images/lotus.png" />
+                  <img src="/images/lotus-two.jpg"/>
                   <div className="caption center-align">
                     <h3 className="main-tag-h3-slideOne">Welcome to AcuWare!</h3>
                     <h5 className="second-tag-slideOne">Your Acupuncture Study Resource.</h5>

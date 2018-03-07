@@ -68,7 +68,7 @@ class SignUp extends Component {
             <div className="slider">
               <ul className="slides">
                 <li>
-                  <img src="/images/lotus.png" />
+                  <img src="/images/lotus-two.jpg" />
                 </li>
                 <li>
                   <img src="/images/needles-dummy.jpg"/>

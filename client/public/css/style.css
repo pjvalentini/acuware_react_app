@@ -17,8 +17,10 @@ body {
 
 /* homepage */
 .homepage-sign-in-confirm {
+	font-family: "Work Sans";
+	font-weight: lighter;
 	color: white;
-	font-size: 15px;
+	font-size: 19px;
 	display: inline-block;
 	float: right;
 	margin-top: -5px;
@@ -44,6 +46,8 @@ nav i.material-icons {
 
 
 nav .brand-logo {
+	font-family: "Work Sans";
+	font-weight: lighter;
 	font-size: 5vw;
 	padding-left: 15px;
 	padding-top: 5px;
@@ -57,12 +61,16 @@ nav .brand-logo i.material-icons {
 }
 
 .nav-links {
+	font-family: "Work Sans";
+	font-weight: lighter;
 	padding: 5px;
 	margin-right: 10px;
 	font-size: 20px;
 }
 
 .logout {
+	font-family: "Work Sans";
+	font-weight: lighter;
 	font-size: 20px;
 }
 
@@ -73,6 +81,8 @@ nav .brand-logo i.material-icons {
 }
 
 .signUp-tag {
+	font-family: "Work Sans";
+	font-weight: lighter;
 	margin-top: -1px;
 	border: solid 1px #a1a1a1;
 	border-radius: 5px;
@@ -83,6 +93,8 @@ nav .brand-logo i.material-icons {
 }
 
 .signIn-tag {
+	font-family: "Work Sans";
+	font-weight: lighter;
 	margin-top: -1px;
 	border: solid 1px #a1a1a1;
 	border-radius: 5px;
@@ -186,6 +198,8 @@ label .active {
 }
 
 .liver-page-title {
+	font-family: "Work Sans";
+	font-weight: lighter;
 	font-size: 30px;
 	color: #606060;
 	background-color: #aee39e;
@@ -196,31 +210,42 @@ label .active {
 }
 
 .liver-channel-text {
+	font-family: "Work Sans";
+	font-weight: lighter;
 	font-size: 25px;
 }
 
 
 /* SUBMIT Button */
 .btn-danger {
+	font-family: "Work Sans";
+	font-weight: lighter;
 	background-color: #a1a1a1;
 }
 
 .btn-danger:hover {
+	font-family: "Work Sans";
+	font-weight: lighter;
 	background-color: #177100;
 }
 
 /* DROPDOWN */
 .center {
+	margin-top: -12px;
+	margin-bottom: 10px;
 	padding-right: 10px;
 	padding-left: 10px;
 	display: inline-block;
 	padding-top: 10px;
 	border-radius: 5px;
-	background-color: #aee39e;
+	background-color: #8b8b8b;
 	float: right;
+	height: 111px;
 }
 
 .dropdown-tag {
+	font-family: "Work Sans";
+	font-weight: lighter;
 	font-size: 2vw;
   color: #5c5c5c;
 	margin: 0;
@@ -233,7 +258,7 @@ label .active {
 }
 
 .select-dropdown {
-	color: slategray;
+	color: white;
 }
 
 .active {
@@ -329,8 +354,9 @@ label .active {
 }
 
 .chinese_character {
-	font-size: 40px;
+	font-size: 70px;
 	color: slategray;
+	font-family: "BiauKai Regular";
 }
 
 .points-data-div-location {
@@ -402,6 +428,9 @@ label .active {
 }
 
 .diagram-title {
+	font-family: "Work Sans";
+	font-weight: lighter;
+	letter-spacing: 2px;
 	display: inline-block;
 	color: slategray;
 	font-size: 1vw;
