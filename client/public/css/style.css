@@ -25,7 +25,8 @@ body {
 	float: right;
 	margin-top: -5px;
 	margin-right: 25px;
-	margin-top: 21px;
+	margin-top: 19px;
+	border: solid 1px white;
 	border-radius: 5px;
 	background-color: #8e8e8e;
 	padding: 3px;
@@ -198,23 +199,125 @@ label .active {
 }
 
 .liver-page-title {
+	display: block;
+	text-align: center;
 	font-family: "Work Sans";
-	font-weight: lighter;
+	font-weight: 400;
 	font-size: 30px;
-	color: #606060;
-	background-color: #aee39e;
-	border: solid 2px white;
+	color: #aee39e;
+	background-color: #606060;
+	border: solid 2px #606060;
 	border-radius: 5px;
 	padding-left: 3px;
 	padding-right: 3px;
 }
 
-.liver-channel-text {
+.liver-page-div-one {
 	font-family: "Work Sans";
-	font-weight: lighter;
-	font-size: 25px;
+	background-color: #aee39e;
+	font-size: 20px;
+	border: solid 1px slategray;
+	border-radius: 5px;
+	color: #606060;
+	padding-left: 5px;
+	padding-right: 3px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
+.liver-page-div-two {
+	font-family: "Work Sans";
+	background-color: #aee39e;
+	font-size: 20px;
+	border: solid 1px slategray;
+	border-radius: 5px;
+	color: #606060;
+	padding-left: 5px;
+	padding-right: 3px;
+	margin-bottom: 5px;
+}
+.liver-page-div-three {
+	font-family: "Work Sans";
+	background-color: #aee39e;
+	font-size: 20px;
+	border: solid 1px slategray;
+	border-radius: 5px;
+	color: #606060;
+	padding-left: 5px;
+	padding-right: 3px;
+	margin-bottom: 5px;
+}
+
+.liver-page-div-four {
+	font-family: "Work Sans";
+	background-color: #aee39e;
+	font-size: 20px;
+	border: solid 1px slategray;
+	border-radius: 5px;
+	color: #606060;
+	padding-left: 5px;
+	padding-right: 3px;
+	margin-bottom: 5px;
+}
+
+.liver-page-div-five {
+	font-family: "Work Sans";
+	background-color: #aee39e;
+	font-size: 20px;
+	border: solid 1px slategray;
+	border-radius: 5px;
+	color: #606060;
+	padding-left: 5px;
+	padding-right: 3px;
+	margin-bottom: 5px;
+}
+
+.liver-page-div-six {
+	font-family: "Work Sans";
+	background-color: #aee39e;
+	font-size: 20px;
+	border: solid 1px slategray;
+	border-radius: 5px;
+	color: #606060;
+	padding-left: 5px;
+	padding-right: 3px;
+	margin-bottom: 5px;
+}
+
+.liver-page-div-seven {
+	font-family: "Work Sans";
+	background-color: #aee39e;
+	font-size: 20px;
+	border: solid 1px slategray;
+	border-radius: 5px;
+	color: #606060;
+	padding-left: 5px;
+	padding-right: 3px;
+	margin-bottom: 5px;
+}
+
+.liver-page-div-eight {
+	font-family: "Work Sans";
+	background-color: #aee39e;
+	font-size: 20px;
+	border: solid 1px slategray;
+	border-radius: 5px;
+	color: #606060;
+	padding-left: 5px;
+	padding-right: 3px;
+	margin-bottom: 5px;
+}
+
+.liver-page-div-nine {
+	font-family: "Work Sans";
+	background-color: #aee39e;
+	font-size: 20px;
+	border: solid 1px slategray;
+	border-radius: 5px;
+	color: #606060;
+	padding-left: 5px;
+	padding-right: 3px;
+}
 
 /* SUBMIT Button */
 .btn-danger {
@@ -261,6 +364,11 @@ label .active {
 	color: white;
 }
 
+/* option {
+	color: red;
+	font-family: "Work Sans";
+} */
+
 .active {
 	color: white;
 }
@@ -287,6 +395,7 @@ label .active {
 }
 
 .points-data-div-title {
+	border: solid 1px slategray;
 	border-radius: 5px;
 	padding: 5px;
 	background-color: #aee39e;
@@ -303,6 +412,7 @@ label .active {
 }
 
 .points-data-div-english-name {
+	border: solid 1px slategray;
 	border-radius: 5px;
 	padding: 5px;
 	background-color: #aee39e;
@@ -322,6 +432,7 @@ label .active {
 }
 
 .points-data-div-pinyin-name {
+	border: solid 1px slategray;
 	border-radius: 5px;
 	padding: 5px;
 	background-color: #aee39e;
@@ -341,6 +452,7 @@ label .active {
 }
 
 .points-data-div-chinese_character {
+	border: solid 1px slategray;
 	border-radius: 5px;
 	padding: 5px;
 	background-color: #aee39e;
@@ -360,6 +472,7 @@ label .active {
 }
 
 .points-data-div-location {
+	border: solid 1px slategray;
 	border-radius: 5px;
 	padding: 5px;
 	background-color: #aee39e;
@@ -376,6 +489,7 @@ label .active {
 }
 
 .points-data-div-clinical-usage {
+	border: solid 1px slategray;
 	border-radius: 5px;
 	padding: 5px;
 	background-color: #aee39e;
@@ -392,6 +506,7 @@ label .active {
 }
 
 .points-data-div-point-associations {
+	border: solid 1px slategray;
 	border-radius: 5px;
 	padding: 5px;
 	background-color: #aee39e;

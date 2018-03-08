@@ -21,7 +21,7 @@ class UserHome extends Component {
       })
     }
 
-// Removing a materialize class
+// Removing a materialize class due to a conflict with a bootstrap element
     componentDidMount() {
       var element = ReactDOM.findDOMNode(this.refs.dropdown)
 
@@ -179,7 +179,34 @@ class UserHome extends Component {
               </div>
               <div style={{width: '75%'}} className="liver-channel-info">
                 <div className="liver-div">
-                  <span className="liver-page-title">LIVER Meridian:</span><span className="liver-channel-text"> The liver is called the 'General' or 'Chief of Staff' and is responsible for filtering, detoxifying, nourishing, replenishing, and storing blood.  The liver stores large amounts of sugar in the form of glycogen, which it releases into the blood stream as glucose whenever the body requires extra infusions of metabolic energy.  The liver receives all amino acids extracted from food by the small intestine and recombines them to synthesize the various forms of protein required for growth and repair of bodily tissues. The liver controls the peripheral nervous system, which regulates muscular activity and tension.  The inability to relax is often caused by liver dysfunction or imbalance in Wood energy.  Liver energy also controls ligaments and tendons, which together with muscles regulate motor activity and determine physical coordination.  Liver function is reflected externally in the condition of finger- and toenails and by the eyes and vision.  Blurry vision is often a result of liver malfunction rather than an eye problem, and even Western medicine recognizes the symptomatic yellow eyes of liver jaundice. Through its association with Wood energy, the liver governs growth and development, drive and desires, ambitions and creativity.  Obstruction of liver energy can cause intense feelings of frustration, rage, and anger, and these emotions in turn further disrupt liver energy and suppress liver function, in a vicious self-destructive cycle.</span>
+                  <span className="liver-page-title">LIVER Meridian:</span>
+                    <div className="liver-page-div-one">
+                      1. The liver is called the 'General' or 'Chief of Staff' and is responsible for filtering, detoxifying, nourishing, replenishing, and storing blood.
+                    </div>
+                    <div className="liver-page-div-two">
+                      2. The liver stores large amounts of sugar in the form of glycogen, which it releases into the blood stream as glucose whenever the body requires extra infusions of metabolic energy.
+                    </div>
+                    <div className="liver-page-div-three">
+                      3. The liver receives all amino acids extracted from food by the small intestine and recombines them to synthesize the various forms of protein required for growth and repair of bodily tissues.
+                    </div>
+                    <div className="liver-page-div-four">
+                      4. The liver controls the peripheral nervous system, which regulates muscular activity and tension.
+                    </div>
+                    <div className="liver-page-div-five">
+                      5. The inability to relax is often caused by liver dysfunction or imbalance in Wood energy.  Liver energy also controls ligaments and tendons, which together with muscles regulate motor activity and determine physical coordination.
+                    </div>
+                    <div className="liver-page-div-six">
+                      6. Liver function is reflected externally in the condition of finger- and toenails and by the eyes and vision.
+                    </div>
+                    <div className="liver-page-div-seven">
+                      7. Blurry vision is often a result of liver malfunction rather than an eye problem, and even Western medicine recognizes the symptomatic yellow eyes of liver jaundice.
+                    </div>
+                    <div className="liver-page-div-eight">
+                      8. Through its association with Wood energy, the liver governs growth and development, drive and desires, ambitions and creativity.
+                    </div>
+                    <div className="liver-page-div-nine">
+                      9. Obstruction of liver energy can cause intense feelings of frustration, rage, and anger, and these emotions in turn further disrupt liver energy and suppress liver function, in a vicious self-destructive cycle.
+                    </div>
                 </div>
               </div>
               {appendPoints()}
