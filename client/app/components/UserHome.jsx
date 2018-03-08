@@ -151,20 +151,20 @@ class UserHome extends Component {
               <h3 className="dropdown-tag">LV Meridian - Points Selector</h3><br></br>
   					  <select ref="pointSelect">
     					  <option defaultValue="" disabled selected className="choose-default">Choose Your Point From The Dropdown Menu</option>
-    					  <option value="LV 1">LV 1</option>
-    					  <option value="LV 2">LV 2</option>
-    					  <option value="LV 3">LV 3</option>
-    						<option value="LV 4">LV 4</option>
-    						<option value="LV 5">LV 5</option>
-    						<option value="LV 6">LV 6</option>
-    						<option value="LV 7">LV 7</option>
-    						<option value="LV 8">LV 8</option>
-    						<option value="LV 9">LV 9</option>
-    						<option value="LV 10">LV 10</option>
-    						<option value="LV 11">LV 11</option>
-    						<option value="LV 12">LV 12</option>
-                <option value="LV 13">LV 13</option>
-                <option value="LV 14">LV 14</option>
+    					  <option value="LV 1">Point - LV 1 - (Liver 1) - Large Pile - Da Dun - 大敦</option>
+    					  <option value="LV 2">Point - LV 2 - (Liver 2) - Moving Between - Xing Jian - 行間</option>
+    					  <option value="LV 3">Point - LV 3 - (Liver 3) - Great Surge - Tai Chong - 太沖</option>
+    						<option value="LV 4">Point - LV 4 - (Liver 4) - Mound Center - Zhong Feng - 中封</option>
+    						<option value="LV 5">Point - LV 5 - (Liver 5) - Wormwood Canal - Li Gou - 蠡溝</option>
+    						<option value="LV 6">Point - LV 6 - (Liver 6) - Central Metropolis - Zhong Du - 中都</option>
+    						<option value="LV 7">Point - LV 7 - (Liver 7) - Knee Joint - Xi Guan - 膝關</option>
+    						<option value="LV 8">Point - LV 8 - (Liver 8) - Spring At The Bend - Qu Quan - 曲泉</option>
+    						<option value="LV 9">Point - LV 9 - (Liver 9) - Yin Bladder - Yin Bao - 陰包</option>
+    						<option value="LV 10">Point - LV 10 - (Liver 10) - Foot Five Li - Zu Wu Li - 足五里</option>
+    						<option value="LV 11">Point - LV 11 - (Liver 11) - Yin Corner - Yin Lian - 陰廉</option>
+    						<option value="LV 12">Point - LV 12 - (Liver 12) - Urgent Pulse - Ji Mai - 急脈</option>
+                <option value="LV 13">Point - LV 13 - (Liver 13) - Camphorwood Gate - Zhang Men - 章門</option>
+                <option value="LV 14">Point - LV 14 - (Liver 14) - Cycle Gate - Qi Men - 期門</option>
   					  </select>
               <br></br>
             </div>

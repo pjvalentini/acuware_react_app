@@ -196,6 +196,7 @@ label .active {
 }
 
 /* Liver Channel Div*/
+
 .liver-channel-info {
 	border-radius: 5px;
 	margin-top: -18px;
@@ -354,7 +355,7 @@ label .active {
 	display: inline-block;
 	padding-top: 10px;
 	border-radius: 5px;
-	background-color: #8b8b8b;
+	background-color: #a2a2a2;
 	float: right;
 	height: 111px;
 }
@@ -368,22 +369,21 @@ label .active {
 	display: inline-block;
 	border: solid 2px #5c5c5c;
 	border-radius: 5px;
-	background-color: white;
+	background-color: #d9d9d9;
 	padding-left: 3px;
 	padding-right: 3px;
 }
 
 .select-dropdown {
-	color: white;
+	color: #2b2b2b;
+	background-color: slategray;
+	border-radius: 5px;
 }
 
-/* option {
-	color: red;
-	font-family: "Work Sans";
-} */
-
-.active {
-	color: white;
+.dropdown-content li>span {
+	color: #5f8c3a;
+	font-size: 20px;
+	/* text-align: center; */
 }
 
 .select-wrapper {
@@ -391,8 +391,9 @@ label .active {
 }
 
 .dropdown-content {
-	background-color: #bababa;
+	background-color: #cfcfcf;
 }
+
 
 /* UserHome page - Points Data Div */
 

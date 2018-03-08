@@ -81,7 +81,7 @@ module.exports = (app, passport) => {
 		);
 	});
 
-// route to get all points from the DB
+// Route to get all points from the DB
 	app.get('/points', (req, res) => {
 		mc.getAllPoints((points) => {
 			points.forEach((point) => {
