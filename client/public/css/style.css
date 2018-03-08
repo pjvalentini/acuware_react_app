@@ -26,7 +26,7 @@ body {
 	margin-top: -5px;
 	margin-right: 25px;
 	margin-top: 19px;
-	border: solid 1px white;
+	border: solid 2px white;
 	border-radius: 5px;
 	background-color: #8e8e8e;
 	padding: 3px;
@@ -134,6 +134,8 @@ label .active {
 }
 
 .main-tag-h3-slideOne {
+	font-family: "Work Sans";
+	font-weight: lighter;
 	background-color: #aee39e;
 	display: inline-block;
 	padding: 4px;
@@ -142,11 +144,14 @@ label .active {
 }
 
 .second-tag-slideOne {
-	color: lightgrey;
+	font-family: "Work Sans";
+	color: white;
 }
 
 
 .main-tag-h3-slideTwo {
+	font-family: "Work Sans";
+	font-weight: lighter;
 	background-color: #aee39e;
 	display: inline-block;
 	padding: 4px;
@@ -155,11 +160,14 @@ label .active {
 }
 
 .second-tag-slideTwo {
-	color: lightgrey;
+	font-family: "Work Sans";
+	color: slategrey;
 	margin-left: 4px;
 }
 
 .main-tag-h3-slideThree {
+	font-family: "Work Sans";
+	font-weight: lighter;
 	background-color: #aee39e;
 	display: inline-block;
 	padding: 4px;
@@ -168,10 +176,13 @@ label .active {
 }
 
 .second-tag-slideThree {
+	font-family: "Work Sans";
 	color: #3d3d3d;
 }
 
 .main-tag-h3-slideFour {
+	font-family: "Work Sans";
+	font-weight: lighter;
 	background-color: #aee39e;
 	display: inline-block;
 	padding: 4px;
@@ -180,7 +191,8 @@ label .active {
 }
 
 .second-tag-slideFour {
-	color: #3d3d3d;
+	font-family: "Work Sans";
+	color: #414141;
 }
 
 /* Liver Channel Div*/
@@ -203,18 +215,19 @@ label .active {
 	text-align: center;
 	font-family: "Work Sans";
 	font-weight: 400;
-	font-size: 30px;
+	font-size: 35px;
 	color: #aee39e;
 	background-color: #606060;
 	border: solid 2px #606060;
 	border-radius: 5px;
 	padding-left: 3px;
 	padding-right: 3px;
+	margin-bottom: 10px;
 }
 
 .liver-page-div-one {
 	font-family: "Work Sans";
-	background-color: #aee39e;
+	background-color: #8cb965;
 	font-size: 20px;
 	border: solid 1px slategray;
 	border-radius: 5px;
@@ -238,7 +251,7 @@ label .active {
 }
 .liver-page-div-three {
 	font-family: "Work Sans";
-	background-color: #aee39e;
+	background-color: #8cb965;
 	font-size: 20px;
 	border: solid 1px slategray;
 	border-radius: 5px;
@@ -262,7 +275,7 @@ label .active {
 
 .liver-page-div-five {
 	font-family: "Work Sans";
-	background-color: #aee39e;
+	background-color: #8cb965;
 	font-size: 20px;
 	border: solid 1px slategray;
 	border-radius: 5px;
@@ -286,7 +299,7 @@ label .active {
 
 .liver-page-div-seven {
 	font-family: "Work Sans";
-	background-color: #aee39e;
+	background-color: #8cb965;
 	font-size: 20px;
 	border: solid 1px slategray;
 	border-radius: 5px;
@@ -310,7 +323,7 @@ label .active {
 
 .liver-page-div-nine {
 	font-family: "Work Sans";
-	background-color: #aee39e;
+	background-color: #8cb965;
 	font-size: 20px;
 	border: solid 1px slategray;
 	border-radius: 5px;
