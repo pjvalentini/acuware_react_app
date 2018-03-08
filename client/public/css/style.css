@@ -1,9 +1,9 @@
-/* Global */
+/********************************** Global **********************************/
 body {
 	margin-bottom: 0;
 }
 
-/* Home Page */
+/********************************** Home Page **********************************/
 
 .nav-links {
 	padding: 5px;
@@ -15,7 +15,7 @@ body {
 	width: 35%;
 }
 
-/* homepage */
+/********************************** HOMEPAGE - 2 **********************************/
 .homepage-sign-in-confirm {
 	font-family: "Work Sans";
 	font-weight: lighter;
@@ -32,7 +32,7 @@ body {
 	padding: 3px;
 }
 
-/* navbar */
+/********************************** NAV BAR **********************************/
 .bg-faded {
 	padding-top: 8px;
 	height: 75px;
@@ -75,7 +75,7 @@ nav .brand-logo i.material-icons {
 	font-size: 20px;
 }
 
-/* Form Styling */
+/********************************** FORM STYLING **********************************/
 
 .text-center {
 	margin-left: 464px;
@@ -123,7 +123,7 @@ label .active {
 	color: slategray;
 }
 
-/* Slide Show */
+/********************************** SLIDE SHOW **********************************/
 
 .slider {
 	margin-top: -19px;
@@ -195,7 +195,7 @@ label .active {
 	color: #414141;
 }
 
-/* Liver Channel Div*/
+/********************************** LIVER CHANNEL DIV **********************************/
 
 .liver-channel-info {
 	border-radius: 5px;
@@ -333,7 +333,7 @@ label .active {
 	padding-right: 3px;
 }
 
-/* SUBMIT Button */
+/********************************** SUBMIT BUTTONS **********************************/
 .btn-danger {
 	font-family: "Work Sans";
 	font-weight: lighter;
@@ -346,7 +346,7 @@ label .active {
 	background-color: #177100;
 }
 
-/* DROPDOWN */
+/********************************** DROPDOWN **********************************/
 .center {
 	margin-top: -12px;
 	margin-bottom: 10px;
@@ -395,7 +395,7 @@ label .active {
 }
 
 
-/* UserHome page - Points Data Div */
+/********************************** USERHOME Page - Points Data Div **********************************/
 
 .points-data-div {
 	float: right;
@@ -538,7 +538,7 @@ label .active {
 }
 
 
-/* Diagram */
+/********************************** DIAGRAM **********************************/
 
 .diagram-wrapper {
 	width: -webkit-fill-available;
