@@ -86,9 +86,9 @@ class SignIn extends Component {
 						<form id="sign-in-form" onSubmit={this.signInForm.bind(this)}>
               <h2 className="signIn-tag">Please sign in!</h2>
 							<label>Username</label><br></br>
-							<input type="text" ref="username" /><br></br>
+							<input style={{fontSize: "20px"}} type="text" ref="username" /><br></br>
 							<label>Password</label><br></br>
-							<input type="password" ref="password"/><br></br>
+							<input style={{fontSize: "20px"}} type="password" ref="password"/><br></br>
 							<input className="btn btn-danger" type="submit" />
 						</form>
 					</div>

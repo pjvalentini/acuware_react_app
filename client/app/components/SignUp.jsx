@@ -86,11 +86,11 @@ class SignUp extends Component {
             <h2 className="signUp-tag">Please sign up today!</h2>
 						<form id="sign-in-form" onSubmit={this.signUpForm.bind(this)}>
 							<label>Name</label><br></br>
-							<input type="text" ref="name" /><br></br>
+							<input style={{fontSize: "20px"}} type="text" ref="name" /><br></br>
 							<label>Username</label><br></br>
-							<input type="text" ref="username" /><br></br>
+							<input style={{fontSize: "20px"}} type="text" ref="username" /><br></br>
 							<label>Password</label><br></br>
-							<input type="password" ref="password" /><br></br>
+							<input style={{fontSize: "20px"}} type="password" ref="password" /><br></br>
 							<input className="btn btn-danger" type="submit" />
 						</form>
 					</div>
