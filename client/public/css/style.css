@@ -409,7 +409,7 @@ label .active {
 .dropdown-content li>span {
 	color: #749d52;
 	font-size: 20px;
-	/* text-align: center; */
+	text-align: center;
 	font-family: "Work Sans";
 	font-weight: 500;
 }
