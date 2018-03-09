@@ -9,6 +9,7 @@ body {
 	padding: 5px;
 	margin-top: -5px;
 	text-decoration: none;
+	letter-spacing: 4px;
 }
 
 #sign-in-div {
@@ -30,6 +31,7 @@ body {
 	border-radius: 5px;
 	background-color: #8e8e8e;
 	padding: 3px;
+	letter-spacing: 2px;
 }
 
 /********************************** NAV BAR **********************************/
@@ -54,6 +56,7 @@ nav .brand-logo {
 	padding-top: 5px;
 	margin-top: -3px;
 	text-decoration: none;
+	letter-spacing: 9px;
 }
 
 nav .brand-logo i.material-icons {
@@ -77,6 +80,7 @@ nav ul a:hover {
 	font-family: "Work Sans";
 	font-weight: lighter;
 	font-size: 20px;
+	letter-spacing: 4px;
 }
 
 /********************************** FORM STYLING **********************************/
@@ -146,9 +150,11 @@ label .active {
 	font-weight: lighter;
 	background-color: #aee39e;
 	display: inline-block;
-	padding: 4px;
+	padding: 5px;
 	border-radius: 5px;
 	font-size: 50px;
+	margin-top: 95px;
+	letter-spacing: 5px;
 }
 
 .second-tag-slideOne {
@@ -162,9 +168,10 @@ label .active {
 	font-weight: lighter;
 	background-color: #aee39e;
 	display: inline-block;
-	padding: 4px;
+	padding: 5px;
 	border-radius: 5px;
 	font-size: 50px;
+	letter-spacing: 5px;
 }
 
 .second-tag-slideTwo {
@@ -178,9 +185,10 @@ label .active {
 	font-weight: lighter;
 	background-color: #aee39e;
 	display: inline-block;
-	padding: 4px;
+	padding: 5px;
 	border-radius: 5px;
 	font-size: 50px;
+	letter-spacing: 5px;
 }
 
 .second-tag-slideThree {
@@ -193,14 +201,15 @@ label .active {
 	font-weight: lighter;
 	background-color: #aee39e;
 	display: inline-block;
-	padding: 4px;
+	padding: 5px;
 	border-radius: 5px;
 	font-size: 50px;
+	letter-spacing: 5px;
 }
 
 .second-tag-slideFour {
 	font-family: "Work Sans";
-	color: #414141;
+	color: #5c5a5a;
 }
 
 /********************************** LIVER CHANNEL DIV **********************************/
@@ -382,6 +391,12 @@ label .active {
 	padding-right: 3px;
 }
 
+.select-wrapper input.select-dropdown {
+	font-size: 1.5rem;
+	color: #5a5a5b;
+	text-align: center;
+}
+
 .select-dropdown {
 	color: #2b2b2b;
 	background-color: slategray;
@@ -392,6 +407,8 @@ label .active {
 	color: #5f8c3a;
 	font-size: 20px;
 	/* text-align: center; */
+	font-family: "Work Sans";
+	font-weight: 500;
 }
 
 .select-wrapper {
@@ -581,3 +598,7 @@ label .active {
 	width: 100%;
 	height: auto;
 }
+
+/* .select-wrapper input.select-dropdown {
+	font-size: 1.5rem;
+} */

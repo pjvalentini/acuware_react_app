@@ -61,23 +61,23 @@ class SignIn extends Component {
                 <a className="brand-logo"><i className="material-icons">directions_walk</i>AcuWare<sup>&reg;</sup></a>
                   <ul className="right hide-on-med-and-down">
           				  <li><Link style={{textDecoration: 'none'}} className="nav-links" to="/">Home</Link></li>
-          					<li><Link style={{textDecoration: 'none'}} className="nav-links" to="/sign-up">Sign Up</Link></li>
+          					<li><Link style={{textDecoration: 'none'}} className="nav-links" to="/sign-up">SignUp</Link></li>
                   </ul>
               </div>
 				    </nav>
             <div className="slider">
               <ul className="slides">
                 <li>
-                  <img src="/images/lotus-two.jpg" />
+                  <img src="/images/leaves.jpg" />
                 </li>
                 <li>
-                  <img src="/images/needles-dummy.jpg"/>
+                  <img src="/images/anciettcmtext.jpg"/>
                 </li>
                 <li>
                   <img src="/images/needles.png"/>
                 </li>
                 <li>
-                  <img src="/images/anciettcmtext.jpg"/>
+                  <img src="/images/needles-dummy.jpg"/>
                 </li>
               </ul>
             </div>

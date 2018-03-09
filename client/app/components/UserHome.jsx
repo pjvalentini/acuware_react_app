@@ -179,7 +179,7 @@ class UserHome extends Component {
               </div>
               <div style={{width: '75%'}} className="liver-channel-info">
                 <div className="liver-div">
-                  <span className="liver-page-title">LIVER Meridian:</span>
+                  <span className="liver-page-title">LIVER MERIDIAN:</span>
                     <div className="liver-page-div-one">
                       1. The liver is called the 'General' or 'Chief of Staff' and is responsible for filtering, detoxifying, nourishing, replenishing, and storing blood.
                     </div>

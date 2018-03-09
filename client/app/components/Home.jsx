@@ -62,7 +62,7 @@ class Home extends Component {
               <div className="nav-wrapper">
                 <a className="brand-logo"><i className="material-icons">directions_walk</i>AcuWare<sup>&reg;</sup></a>
                   <ul className="right hide-on-med-and-down">
-        						<li><Link style={{textDecoration: 'none'}} className="nav-links" to="/sign-up">Sign Up</Link></li>
+        						<li><Link style={{textDecoration: 'none'}} className="nav-links" to="/sign-up">SignUp</Link></li>
         						<li><Link style={{textDecoration: 'none'}} className="nav-links" to="/login">Login</Link></li>
                   </ul>
               </div>
@@ -76,10 +76,10 @@ class Home extends Component {
             <div className="slider" style={{height: "840px", touchAction: "pan-y", WebkitUserDrag: "none", WebkitTapHighlightColor: "rgba(0, 0, 0, 0)"}}>
               <ul className="slides" style={{height: "800px", touchAction: "pan-y", WebkitUserDrag: "none", WebkitTapHighlightColor: "rgba(0, 0, 0, 0)"}}>
                 <li>
-                  <img src="/images/lotus-two.jpg"/>
+                  <img src="/images/anciettcmtext.jpg"/>
                   <div className="caption center-align">
                     <h3 className="main-tag-h3-slideOne">Welcome to AcuWare!</h3>
-                    <h5 className="second-tag-slideOne">Your Acupuncture Study Resource.</h5>
+                    <h5 className="second-tag-slideOne"></h5>
                   </div>
                 </li>
                 <li>
@@ -97,10 +97,10 @@ class Home extends Component {
                   </div>
                 </li>
                 <li>
-                  <img src="/images/anciettcmtext.jpg"/>
+                  <img src="/images/greentree.jpg"/>
                   <div className="caption center-align">
                     <h3 className="main-tag-h3-slideFour">Always Free!</h3>
-                    <h5 className="second-tag-slideFour" >All you have to is sign up and start learning.</h5>
+                    <h5 className="second-tag-slideFour" >All you have to is sign up.</h5>
                   </div>
                 </li>
               </ul>
