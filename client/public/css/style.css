@@ -245,7 +245,7 @@ label .active {
 
 .liver-page-div-one {
 	font-family: "Work Sans";
-	background-color: #8cb965;
+	background-color: #bcbcbc;
 	font-size: 20px;
 	border: solid 1px slategray;
 	border-radius: 5px;
@@ -258,7 +258,7 @@ label .active {
 
 .liver-page-div-two {
 	font-family: "Work Sans";
-	background-color: #aee39e;
+	background-color: #f1f1f1;
 	font-size: 20px;
 	border: solid 1px slategray;
 	border-radius: 5px;
@@ -269,7 +269,7 @@ label .active {
 }
 .liver-page-div-three {
 	font-family: "Work Sans";
-	background-color: #8cb965;
+	background-color: #bcbcbc;
 	font-size: 20px;
 	border: solid 1px slategray;
 	border-radius: 5px;
@@ -281,7 +281,7 @@ label .active {
 
 .liver-page-div-four {
 	font-family: "Work Sans";
-	background-color: #aee39e;
+	background-color: #f1f1f1;
 	font-size: 20px;
 	border: solid 1px slategray;
 	border-radius: 5px;
@@ -293,7 +293,7 @@ label .active {
 
 .liver-page-div-five {
 	font-family: "Work Sans";
-	background-color: #8cb965;
+	background-color: #bcbcbc;
 	font-size: 20px;
 	border: solid 1px slategray;
 	border-radius: 5px;
@@ -305,7 +305,7 @@ label .active {
 
 .liver-page-div-six {
 	font-family: "Work Sans";
-	background-color: #aee39e;
+	background-color: #f1f1f1;
 	font-size: 20px;
 	border: solid 1px slategray;
 	border-radius: 5px;
@@ -317,7 +317,7 @@ label .active {
 
 .liver-page-div-seven {
 	font-family: "Work Sans";
-	background-color: #8cb965;
+	background-color: #bcbcbc;
 	font-size: 20px;
 	border: solid 1px slategray;
 	border-radius: 5px;
@@ -329,7 +329,7 @@ label .active {
 
 .liver-page-div-eight {
 	font-family: "Work Sans";
-	background-color: #aee39e;
+	background-color: #f1f1f1;
 	font-size: 20px;
 	border: solid 1px slategray;
 	border-radius: 5px;
@@ -341,7 +341,7 @@ label .active {
 
 .liver-page-div-nine {
 	font-family: "Work Sans";
-	background-color: #8cb965;
+	background-color: #bcbcbc;
 	font-size: 20px;
 	border: solid 1px slategray;
 	border-radius: 5px;
@@ -395,6 +395,9 @@ label .active {
 	font-size: 1.5rem;
 	color: #5a5a5b;
 	text-align: center;
+	display: inline-block;
+	border-top: solid 2px slategray;
+	margin-top: -2px;
 }
 
 .select-dropdown {
@@ -404,7 +407,7 @@ label .active {
 }
 
 .dropdown-content li>span {
-	color: #5f8c3a;
+	color: #749d52;
 	font-size: 20px;
 	/* text-align: center; */
 	font-family: "Work Sans";
@@ -523,7 +526,7 @@ label .active {
 }
 
 .location {
-	font-size: 20px;
+	font-size: 25px;
 	color: slategray;
 }
 
@@ -540,7 +543,7 @@ label .active {
 }
 
 .clinical-usage {
-	font-size: 18px;
+	font-size: 20px;
 	color: slategray;
 }
 
@@ -586,19 +589,20 @@ label .active {
 	font-weight: lighter;
 	letter-spacing: 2px;
 	display: inline-block;
+	border: solid 1px slategray;
+	background-color: #aee39e;
+	border-radius: 5px;
+	text-align: center;
 	color: slategray;
 	font-size: 1vw;
+	font-weight: 500;
 	padding-left: 10px;
 	padding-right: 10px;
 	margin-top: 0;
-  margin-bottom: 0;
+	margin-bottom: 6px;
 }
 
 .materialboxed {
 	width: 100%;
 	height: auto;
 }
-
-/* .select-wrapper input.select-dropdown {
-	font-size: 1.5rem;
-} */
