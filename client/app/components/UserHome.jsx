@@ -84,7 +84,7 @@ class UserHome extends Component {
           const pointSelected = this.state.points.filter((point) => point.meridian === this.state.selected);
           return pointSelected.map((selectedPoint, index) => {
             return (
-              <div className="points-data-div" style={{width: '75%'}}>
+              <div className="points-data-div" style={{width: '50%'}}>
                 <div>
                   <p key={index} className="points-data-div-title"><span className="channel-title">LV Meridian Point:</span><span className="channel-number"> {selectedPoint.meridian}</span></p>
                 </div>
@@ -129,7 +129,7 @@ class UserHome extends Component {
                     })
                   }
                 </ol>
-                </div>
+               </div>
               </div>
             )
           })
