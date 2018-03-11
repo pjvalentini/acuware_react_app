@@ -32,6 +32,7 @@ body {
 	background-color: #8e8e8e;
 	padding: 3px;
 	letter-spacing: 2px;
+	box-shadow: 5px 10px 20px 1px #747474;
 }
 
 /********************************** NAV BAR **********************************/
@@ -241,6 +242,7 @@ label .active {
 	padding-left: 3px;
 	padding-right: 3px;
 	margin-bottom: 10px;
+	box-shadow: 3px 3px 8px 2px #747474;
 }
 
 .liver-page-div-one {
@@ -254,6 +256,7 @@ label .active {
 	padding-right: 3px;
 	margin-top: 5px;
 	margin-bottom: 5px;
+	box-shadow: 3px 3px 8px 1px #747474;
 }
 
 .liver-page-div-two {
@@ -266,6 +269,7 @@ label .active {
 	padding-left: 5px;
 	padding-right: 3px;
 	margin-bottom: 5px;
+	box-shadow: 3px 3px 8px 1px #747474;
 }
 .liver-page-div-three {
 	font-family: "Work Sans";
@@ -277,6 +281,7 @@ label .active {
 	padding-left: 5px;
 	padding-right: 3px;
 	margin-bottom: 5px;
+	box-shadow: 3px 3px 8px 1px #747474;
 }
 
 .liver-page-div-four {
@@ -289,6 +294,7 @@ label .active {
 	padding-left: 5px;
 	padding-right: 3px;
 	margin-bottom: 5px;
+	box-shadow: 3px 3px 8px 1px #747474;
 }
 
 .liver-page-div-five {
@@ -301,6 +307,7 @@ label .active {
 	padding-left: 5px;
 	padding-right: 3px;
 	margin-bottom: 5px;
+	box-shadow: 3px 3px 8px 1px #747474;
 }
 
 .liver-page-div-six {
@@ -313,6 +320,7 @@ label .active {
 	padding-left: 5px;
 	padding-right: 3px;
 	margin-bottom: 5px;
+	box-shadow: 3px 3px 8px 1px #747474;
 }
 
 .liver-page-div-seven {
@@ -325,6 +333,7 @@ label .active {
 	padding-left: 5px;
 	padding-right: 3px;
 	margin-bottom: 5px;
+	box-shadow: 3px 3px 8px 1px #747474;
 }
 
 .liver-page-div-eight {
@@ -337,6 +346,7 @@ label .active {
 	padding-left: 5px;
 	padding-right: 3px;
 	margin-bottom: 5px;
+	box-shadow: 3px 3px 8px 1px #747474;
 }
 
 .liver-page-div-nine {
@@ -348,6 +358,7 @@ label .active {
 	color: #606060;
 	padding-left: 5px;
 	padding-right: 3px;
+	box-shadow: 3px 3px 8px 1px #747474;
 }
 
 /********************************** SUBMIT BUTTONS **********************************/
