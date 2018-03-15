@@ -5,26 +5,31 @@ var bcrypt = require('bcrypt-nodejs');
 var mc = require('./model-controller.js');
 var models = require('../models');
 
+// Exporting to be required in server.js file.
 module.exports = (app, passport) => {
 	app.get('/', function(req, res) {
 		res.sendFile(path.join(__dirname, './../../client/public/index.html'));
 	});
 
+// Get Route for just signed in users.
 	app.get('/api/sign-up', function(req, res) {
-		console.log(res);
+		// console.log(res); // shows me the user who just signed up.
 		if (req.user) {
 			res.json({ message: 'signed-in', user_id: req.user.id });
 		}
 	});
 
 	app.get('/api/sign-in', function(req, res) {
+		// console.log(res);
 		if (req.user) {
+			// console.log(req.user); // shows me the person who signed in throught the form.
 			res.json({ message: 'signed-in', user_id: req.user.id });
 		}
 	});
 
 	app.post('/api/sign-up', function(req, res, next) {
 		passport.authenticate('local-signup', function(err, user, info) {
+			// console.log(user); // will show me the user that has just signed up to the site.
 			if (err) {
 				return next(err);
 			} else {
@@ -33,6 +38,7 @@ module.exports = (app, passport) => {
 		})(req, res, next);
 	});
 
+// Post route to send through the current user.
 	app.post('/api/sign-in', function(req,res,next) {
 		passport.authenticate('local-signin', function(err, user, info) {
 		    if (err) {
@@ -50,8 +56,9 @@ module.exports = (app, passport) => {
 	  })(req, res, next);
 	});
 
+// Get Route for users currently signed in
 	app.get('/api/signed-in', (req, res) => {
-		console.log(req.user);
+		// console.log(req.user); // shows me the person currently signed in.
 		if (req.user) {
 			res.json({ message: 'signed-in', user: req.user });
 		} else {
@@ -59,13 +66,14 @@ module.exports = (app, passport) => {
 		}
 	});
 
+// Delete Route to Logout.
 	app.delete('/api/logout', function(req, res) {
 		req.session.destroy(function() {
 			res.status(204).send();
 		});
 	});
 
-// route to create a point for poulating DB in Postman
+// Post route to create a point data for poulating DB in Postman.
 	app.post('/api/create-point', (req, res) => {
 		mc.createPoint(
 			req.body.meridian,

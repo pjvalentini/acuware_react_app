@@ -1,5 +1,6 @@
 var models = require('./../models');
 
+// This createPoint function will create the model Points and can be called in the routes.js file.
 module.exports = {
 	createPoint: (meridian, english_name, pinyin_name, chinese_character, location, clinical_uses, point_associations, pointsData) => {
 			models.Points.create({
@@ -14,6 +15,8 @@ module.exports = {
 				pointsData(res);
 		});
 	},
+
+// Function getAllPoints will run a findAll query to the DB, and can be called in the routes.js file.
 	getAllPoints: (points) => {
 		models.Points.findAll({}).then((res) => {
 			points(res);
