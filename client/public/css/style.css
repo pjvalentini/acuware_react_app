@@ -18,7 +18,7 @@ body {
 
 /********************************** HOMEPAGE - 2 **********************************/
 .homepage-sign-in-confirm {
-	font-family: "Work Sans";
+	font-family: "Work Sans", sans-serif;
 	font-weight: lighter;
 	color: white;
 	font-size: 19px;
@@ -50,7 +50,7 @@ nav i.material-icons {
 
 
 nav .brand-logo {
-	font-family: "Work Sans";
+	font-family: "Work Sans", sans-serif;
 	font-weight: lighter;
 	font-size: 5vw;
 	padding-left: 15px;
@@ -66,7 +66,7 @@ nav .brand-logo i.material-icons {
 }
 
 .nav-links {
-	font-family: "Work Sans";
+	font-family: "Work Sans", sans-serif;
 	font-weight: lighter;
 	padding: 5px;
 	margin-right: 10px;
@@ -78,7 +78,7 @@ nav ul a:hover {
 }
 
 .logout {
-	font-family: "Work Sans";
+	font-family: "Work Sans", sans-serif;
 	font-weight: lighter;
 	font-size: 20px;
 	letter-spacing: 4px;
@@ -86,7 +86,7 @@ nav ul a:hover {
 
 /********************************** FORM STYLING **********************************/
 input {
-	font-family: "Work Sans";
+	font-family: "Work Sans", sans-serif;
 	color: #6e6e6e;
 }
 
@@ -95,7 +95,7 @@ input {
 }
 
 .signUp-tag {
-	font-family: "Work Sans";
+	font-family: "Work Sans", sans-serif;
 	font-weight: lighter;
 	margin-top: -1px;
 	border: solid 1px #a1a1a1;
@@ -108,7 +108,7 @@ input {
 }
 
 .signIn-tag {
-	font-family: "Work Sans";
+	font-family: "Work Sans", sans-serif;
 	font-weight: lighter;
 	margin-top: -1px;
 	border: solid 1px #a1a1a1;
@@ -149,7 +149,7 @@ label .active {
 }
 
 .main-tag-h3-slideOne {
-	font-family: "Work Sans";
+	font-family: "Work Sans", sans-serif;
 	font-weight: lighter;
 	background-color: #aee39e;
 	display: inline-block;
@@ -162,13 +162,13 @@ label .active {
 }
 
 .second-tag-slideOne {
-	font-family: "Work Sans";
+	font-family: "Work Sans", sans-serif;
 	color: white;
 }
 
 
 .main-tag-h3-slideTwo {
-	font-family: "Work Sans";
+	font-family: "Work Sans", sans-serif;
 	font-weight: lighter;
 	background-color: #aee39e;
 	display: inline-block;
@@ -180,13 +180,13 @@ label .active {
 }
 
 .second-tag-slideTwo {
-	font-family: "Work Sans";
+	font-family: "Work Sans", sans-serif;
 	color: slategrey;
 	margin-left: 4px;
 }
 
 .main-tag-h3-slideThree {
-	font-family: "Work Sans";
+	font-family: "Work Sans", sans-serif;
 	font-weight: lighter;
 	background-color: #aee39e;
 	display: inline-block;
@@ -198,12 +198,12 @@ label .active {
 }
 
 .second-tag-slideThree {
-	font-family: "Work Sans";
+	font-family: "Work Sans", sans-serif;
 	color: #3d3d3d;
 }
 
 .main-tag-h3-slideFour {
-	font-family: "Work Sans";
+	font-family: "Work Sans", sans-serif;
 	font-weight: lighter;
 	background-color: #aee39e;
 	display: inline-block;
@@ -215,7 +215,7 @@ label .active {
 }
 
 .second-tag-slideFour {
-	font-family: "Work Sans";
+	font-family: "Work Sans", sans-serif;
 	color: #5c5a5a;
 }
 
@@ -238,7 +238,7 @@ label .active {
 .liver-page-title {
 	display: block;
 	text-align: center;
-	font-family: "Work Sans";
+	font-family: "Work Sans", sans-serif;
 	font-weight: 400;
 	font-size: 35px;
 	color: #aee39e;
@@ -252,7 +252,7 @@ label .active {
 }
 
 .liver-page-div-one {
-	font-family: "Work Sans";
+	font-family: "Work Sans", sans-serif;
 	background-color: #bcbcbc;
 	font-size: 20px;
 	border: solid 1px slategray;
@@ -266,7 +266,7 @@ label .active {
 }
 
 .liver-page-div-two {
-	font-family: "Work Sans";
+	font-family: "Work Sans", sans-serif;
 	background-color: #f1f1f1;
 	font-size: 20px;
 	border: solid 1px slategray;
@@ -278,7 +278,7 @@ label .active {
 	box-shadow: 3px 3px 8px 1px #747474;
 }
 .liver-page-div-three {
-	font-family: "Work Sans";
+	font-family: "Work Sans", sans-serif;
 	background-color: #bcbcbc;
 	font-size: 20px;
 	border: solid 1px slategray;
@@ -291,7 +291,7 @@ label .active {
 }
 
 .liver-page-div-four {
-	font-family: "Work Sans";
+	font-family: "Work Sans", sans-serif;
 	background-color: #f1f1f1;
 	font-size: 20px;
 	border: solid 1px slategray;
@@ -304,7 +304,7 @@ label .active {
 }
 
 .liver-page-div-five {
-	font-family: "Work Sans";
+	font-family: "Work Sans", sans-serif;
 	background-color: #bcbcbc;
 	font-size: 20px;
 	border: solid 1px slategray;
@@ -317,7 +317,7 @@ label .active {
 }
 
 .liver-page-div-six {
-	font-family: "Work Sans";
+	font-family: "Work Sans", sans-serif;
 	background-color: #f1f1f1;
 	font-size: 20px;
 	border: solid 1px slategray;
@@ -330,7 +330,7 @@ label .active {
 }
 
 .liver-page-div-seven {
-	font-family: "Work Sans";
+	font-family: "Work Sans", sans-serif;
 	background-color: #bcbcbc;
 	font-size: 20px;
 	border: solid 1px slategray;
@@ -343,7 +343,7 @@ label .active {
 }
 
 .liver-page-div-eight {
-	font-family: "Work Sans";
+	font-family: "Work Sans", sans-serif;
 	background-color: #f1f1f1;
 	font-size: 20px;
 	border: solid 1px slategray;
@@ -356,7 +356,7 @@ label .active {
 }
 
 .liver-page-div-nine {
-	font-family: "Work Sans";
+	font-family: "Work Sans", sans-serif;
 	background-color: #bcbcbc;
 	font-size: 20px;
 	border: solid 1px slategray;
@@ -369,13 +369,13 @@ label .active {
 
 /********************************** SUBMIT BUTTONS **********************************/
 .btn-danger {
-	font-family: "Work Sans";
+	font-family: "Work Sans", sans-serif;
 	font-weight: lighter;
 	background-color: #a1a1a1;
 }
 
 .btn-danger:hover {
-	font-family: "Work Sans";
+	font-family: "Work Sans", sans-serif;
 	font-weight: lighter;
 	background-color: #177100;
 }
@@ -395,7 +395,7 @@ label .active {
 }
 
 .dropdown-tag {
-	font-family: "Work Sans";
+	font-family: "Work Sans", sans-serif;
 	font-weight: lighter;
 	font-size: 2vw;
   color: #5c5c5c;
@@ -427,7 +427,7 @@ label .active {
 	color: #749d52;
 	font-size: 20px;
 	text-align: center;
-	font-family: "Work Sans";
+	font-family: "Work Sans", sans-serif;
 	font-weight: 500;
 	border-bottom: solid 1px slategray;
 	box-shadow: 3px 3px 10px 1px #8a8a8a;
@@ -613,7 +613,7 @@ label .active {
 }
 
 .diagram-title {
-	font-family: "Work Sans";
+	font-family: "Work Sans", sans-serif;
 	font-weight: lighter;
 	letter-spacing: 2px;
 	display: inline-block;
