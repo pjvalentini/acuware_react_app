@@ -14,7 +14,7 @@ class UserHome extends Component {
         };
     }
 
-// Dropdown Code
+// Dropdown Code for setting the state.
     onSelectChange(e) {
       this.setState({
         selected: e.target.value
@@ -38,11 +38,14 @@ class UserHome extends Component {
             method: 'DELETE',
             credentials: 'same-origin'
         }).then((response) => {
+          // 204 - No Content
         	if(response.status == 204){
         		this.props.history.push('/');
         	}
         });
     }
+  
+ // mounting the sign-in component
 	componentWillMount(){
     fetch('/api/signed-in', {
 	       headers: {
