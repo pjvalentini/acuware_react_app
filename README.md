@@ -2,9 +2,9 @@
 
 AcuWare was created to help first year acupuncture students.
 
-  - AcuWare offers up data relating to the Point Merdians of the body. (This application display only one channel now but will be scaled up to offer more data soon, and relfect more channels)
-  - Part of the students curricular requirements they have to produce index cards as study materials.
-  - These Students often have to source multiple texts in order to generate one index card, so AcuWare can streamline that process down to seconds as opposed to several minutes sourcing data, if not more.
+  - AcuWare offers up data relating to the Point Merdians of the body. (This application display only    one channel now but will be scaled up to offer more data soon, and relfect more channels)
+  - Part of the students at Pacific College curricular requirements they have to produce index cards     as study materials.
+  - These Students often have to source multiple texts in order to generate one index card, so AcuWare   can streamline that process down to seconds as opposed to several minutes sourcing data, if not      more.
 
 Front End Technologies Used:
 
@@ -28,7 +28,14 @@ AcuWare Application Features:
 
 Design Features:
 
-  - AcuWare was designed with mostly custom CSS and I used Materialize CSS for additional clean design an functionality.
+  - AcuWare was designed with mostly custom CSS and I used Materialize CSS for additional design.
+
+Running the application on locallly on your machine:
+  - 1. git clone
+  - 2. navigate inside of the acuware_react_app file
+  - 3. Download modules run in the terminal - npm i or npm install
+  - 4. Go to:  http://localhost:8000
+
 
 Heroku URL:
 
