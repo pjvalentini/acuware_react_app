@@ -20,6 +20,7 @@ module.exports = function(passport) {
 		passReqToCallback: true,
 	},
 	function(req, username, password, done) {
+	// process.nextTick() which is used by developers in realtime applications everyday to defer the execution of a function until the next Event Loop Iteration
 		process.nextTick(function() {
 			models.User.findOne({ where: { username: username } }).then(function(user) {
 				if (!user)

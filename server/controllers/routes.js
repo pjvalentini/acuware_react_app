@@ -42,10 +42,11 @@ module.exports = (app, passport) => {
 	app.post('/api/sign-in', function(req,res,next) {
 		passport.authenticate('local-signin', function(err, user, info) {
 		    if (err) {
-		      	return next(err);
+				 console.log(info);
+				  return next(err);
 		    }
 		    if (!user) {
-		    	return res.status(401).json({ success : false, message : 'authentication failed', info: info });
+				return res.status(401).json({ success : false, message : 'authentication failed', info: info });
 		    }
 		    req.login(user, function(err) {
 					if (err) {

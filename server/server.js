@@ -32,6 +32,8 @@ app.use(session({
  	resave: true,
  	saveUninitialized: false
 }));
+
+// Passport setup
 app.use(passport.initialize());
 app.use(passport.session());
 
@@ -40,4 +42,9 @@ app.use(express.static('./client/public'));
 require('./controllers/passport.js')(passport);
 require('./controllers/routes.js')(app, passport);
 
-app.listen(PORT);
+app.listen(PORT, ()=> {
+	console.log("app listening on port: " + PORT);
+});
+
+
+
