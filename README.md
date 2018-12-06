@@ -37,11 +37,13 @@ Running the application on locallly on your machine:
   - 4. To run the app: 
 
           A) Run the Webpack:
+              
               - 1. Open a terminal window
               
               - 2. run in the termianl - webpack -w
           
           B) Start the App
+              
               - 1. Open a second terminal window
               
               - 2. run in the cmd - npm start
