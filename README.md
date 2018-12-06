@@ -40,7 +40,7 @@ Running the application on locallly on your machine:
               
               - 1. Open a terminal window
               
-              - 2. run in the termianl - webpack -w
+              - 2. run in the terminal - webpack -w
           
           B) Start the App
               
