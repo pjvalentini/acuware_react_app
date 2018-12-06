@@ -34,11 +34,16 @@ Running the application on locallly on your machine:
   - 1. git clone
   - 2. Navigate inside of the acuware_react_app file
   - 3. To download modules, run in the terminal - npm i or npm install
-  - 4. Go to:  http://localhost:8000
+  - 4. To run the app: 
+          1.) Run the Webpack:
+              - 1. Open a terminal window
+              - 2. run in the termianl - webpack -w
+          2.) Start the App
+              - 1. Open a second terminal window
+              - 2. run in the cmd - npm start
+  - 5. Go to:  http://localhost:8000
 
-Running Webpack:
-  - 1. Open a second terminal window
-  - 2. run in the termianl - webpack -w
+
 
 Heroku URL:
  - AcuWare is deployed on Herkou via this url : https://serene-earth-77542.herokuapp.com/
