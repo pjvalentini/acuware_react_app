@@ -33,10 +33,11 @@ app.use(session({
  	saveUninitialized: false
 }));
 
-// Passport setup
+// Passport middleware setup
 app.use(passport.initialize());
 app.use(passport.session());
 
+// Express Middleware linking to public files.
 app.use(express.static('./client/public'));
 
 require('./controllers/passport.js')(passport);

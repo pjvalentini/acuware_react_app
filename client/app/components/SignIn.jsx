@@ -19,10 +19,12 @@ class SignIn extends Component {
 
     signInForm(e){
         e.preventDefault()
+        // grabbing the inputs
     	var signInUser = {
     		username: this.refs.username.value,
     		password: this.refs.password.value
-    	}
+        }
+        // this route when hit will show the id of the signed in user with a message
         fetch('/api/sign-in', {
             method: 'post',
             body: JSON.stringify(signInUser),

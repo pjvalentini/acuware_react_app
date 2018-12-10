@@ -13,23 +13,23 @@ module.exports = (app, passport) => {
 
 // Get Route for just signed in users.
 	app.get('/api/sign-up', function(req, res) {
-		// console.log(res); // shows me the user who just signed up.
+		console.log(res); // shows me the user who just signed up.
 		if (req.user) {
 			res.json({ message: 'signed-in', user_id: req.user.id });
 		}
 	});
 
 	app.get('/api/sign-in', function(req, res) {
-		// console.log(res);
+		console.log(res);
 		if (req.user) {
-			// console.log(req.user); // shows me the person who signed in throught the form.
+			console.log(req.user); // shows me the person who signed in throught the form.
 			res.json({ message: 'signed-in', user_id: req.user.id });
 		}
 	});
 
 	app.post('/api/sign-up', function(req, res, next) {
 		passport.authenticate('local-signup', function(err, user, info) {
-			// console.log(user); // will show me the user that has just signed up to the site.
+			console.log(user); // will show me the user that has just signed up to the site.
 			if (err) {
 				return next(err);
 			} else {
@@ -93,6 +93,7 @@ module.exports = (app, passport) => {
 // Route to get all points from the DB
 	app.get('/points', (req, res) => {
 		mc.getAllPoints((points) => {
+			// looping over list items.
 			points.forEach((point) => {
 				point.clinical_uses = point.clinical_uses.split(".");
 				point.point_associations = point.point_associations.split(".");
@@ -100,7 +101,7 @@ module.exports = (app, passport) => {
 			res.json(points);
 		});
 	});
-
+// Wild card route.
 	app.get('*', function(req,res) {
 		res.sendFile(path.join(__dirname, './../../client/public/index.html'));
 	});

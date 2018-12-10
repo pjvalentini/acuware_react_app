@@ -1,6 +1,7 @@
 var bcrypt = require('bcryptjs');
 var cryptojs = require('crypto-js');
 
+// Model for creating the users table.
 module.exports = function(sequelize, DataTypes) {
 	var User = sequelize.define('User', {
 		name: {
@@ -24,6 +25,7 @@ module.exports = function(sequelize, DataTypes) {
 			validate: {
 				len: [7, 100],
 			},
+			// setting some validation on the User model using bcrypt for salting and hashing.
 			set: function(value) {
 				var salt = bcrypt.genSaltSync(10);
 				var hashedPassword = bcrypt.hashSync(value, salt);

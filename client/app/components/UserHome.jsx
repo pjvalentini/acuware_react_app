@@ -32,7 +32,7 @@ class UserHome extends Component {
       $(ReactDOM.findDOMNode(this.refs.pointSelect)).on('change', this.onSelectChange.bind(this));
     }
 
-// Delete for the logout
+// Delete for the logout, kills the session
     logoutUser(){
         fetch('/api/logout', {
             method: 'DELETE',
@@ -77,7 +77,8 @@ class UserHome extends Component {
     .then((results) => {
     	this.setState({
     		points: results
-    	})
+      })
+      console.log(results); // logs all points to the console
     });
 	}
   	render() {
@@ -112,7 +113,7 @@ class UserHome extends Component {
                     selectedPoint.clinical_uses.map((clinicalUsage, index) => {
                         return(
                           <div>
-                              <span className="clinical-usage"><li key={clinicalUsage}>{clinicalUsage}</li></span>
+                              <span className="clinical-usage"><li key={index}>{clinicalUsage}</li></span>
                           </div>
                         )
                     })
@@ -126,7 +127,7 @@ class UserHome extends Component {
                     selectedPoint.point_associations.map((pointAssociation, index) => {
                       return(
                         <div>
-                            <span className="point-associations"><li key={pointAssociation}>{pointAssociation}</li></span>
+                            <span className="point-associations"><li key={index}>{pointAssociation}</li></span>
                         </div>
                       )
                     })

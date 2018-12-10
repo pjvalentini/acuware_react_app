@@ -1,5 +1,7 @@
 var models = require('./../models');
 
+// Here we can manipulate the data from the models structuring it how we want it.
+
 // This createPoint function will create the model Points and can be called in the routes.js file.
 module.exports = {
 	createPoint: (meridian, english_name, pinyin_name, chinese_character, location, clinical_uses, point_associations, pointsData) => {

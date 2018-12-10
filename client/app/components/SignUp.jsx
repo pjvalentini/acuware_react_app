@@ -9,6 +9,7 @@ class SignUp extends Component {
     }
 
 // creating a custom height for the slide show.
+// Component reenders when page loads
     componentDidMount() {
     $(document).ready(function(){
         $('.slider').slider();
@@ -37,6 +38,7 @@ class SignUp extends Component {
         	this.props.history.push("/login");
         });
     }
+   // component will render after sign up. 
 	componentWillMount(){
         fetch('/api/signed-in', {
             headers: {

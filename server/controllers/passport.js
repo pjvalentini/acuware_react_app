@@ -14,6 +14,7 @@ module.exports = function(passport) {
 		done(null, obj);
 	});
 
+// Setting up the LocalStrategy
 	passport.use('local-signin', new LocalStrategy({
 		usernameField: 'username',
 		passwordField: 'password',
@@ -22,6 +23,7 @@ module.exports = function(passport) {
 	function(req, username, password, done) {
 	// process.nextTick() which is used by developers in realtime applications everyday to defer the execution of a function until the next Event Loop Iteration
 		process.nextTick(function() {
+			// find User by Username and will check if there is a user or a valis password.
 			models.User.findOne({ where: { username: username } }).then(function(user) {
 				if (!user)
 					return done(null, false, { message: 'no user' });
@@ -44,6 +46,7 @@ module.exports = function(passport) {
 				if (user) {
 					return done(null, false, req.flash('signupMessage', 'That username already taken'));
 				} else {
+					// here we manipulate how we want our user data to be passed in to our DB
 	  				return models.User.create({
 	  					name: req.body.name,
 	  					username: username,

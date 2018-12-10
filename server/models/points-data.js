@@ -1,7 +1,7 @@
 var bcrypt = require('bcryptjs');
 var cryptojs = require('crypto-js');
 
-
+// model used for setting up DB table for  all liver meridian points
 module.exports = function(sequelize, DataTypes) {
 	var Points = sequelize.define('Points', {
 		meridian: {

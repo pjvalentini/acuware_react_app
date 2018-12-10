@@ -5,7 +5,9 @@ import Logout from './Logout';
 
 class Home extends Component {
     constructor(props) {
+      // using super to be able to open up the use of "this"
         super(props);
+        // we set an initial state so the comp is valid for rendering.
         this.state = {
           user: {},
         	signedIn: false
@@ -21,6 +23,7 @@ class Home extends Component {
     });
 }
 
+// once the component mounts we can see who is currently signed in 
 	componentWillMount(){
         fetch('/api/signed-in', {
             headers: {
@@ -32,6 +35,7 @@ class Home extends Component {
         .then((results) => {
             if(results.message){
                 if(results.message === "signed-in"){
+                  // state change when signed-in
                     this.setState({
                       user: results.user,
                     	signedIn: true
@@ -41,7 +45,8 @@ class Home extends Component {
         });
 	}
   	render() {
-      console.log(this.state)
+      // tells me if there is a user signed in.
+      console.log(this.state) 
   		const renderLinks = () => {
   			if(this.state.signedIn){
   				return (

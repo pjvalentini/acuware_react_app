@@ -12,6 +12,7 @@ class Logout extends Component {
             method: 'DELETE',
             credentials: 'same-origin'
         }).then((response) => {
+            // 204 - no content
         	if(response.status == 204){
         		this.props.history.push('/login');
         	}
